@@ -1,0 +1,7 @@
+# macOS and IDE aux files
+**/.DS_Store
+.idea
+
+# Dependencies
+node_modules
+package-lock.json
