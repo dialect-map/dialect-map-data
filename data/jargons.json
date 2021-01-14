@@ -1,0 +1,514 @@
+[
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "kullback–leibler divergence",
+        "regex": "[Kk]ullback[- ][Ll]eibler divergence"
+      },
+      {
+        "name": "relative entropy",
+        "regex": "[Rr]elative entropy"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "elbo",
+        "regex": "ELBO"
+      },
+      {
+        "name": "evidence lower bound",
+        "regex": "[Ee]vidence lower bound"
+      },
+      {
+        "name": "variational free energy",
+        "regex": "[Vv]ariational free energy"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "hidden variable",
+        "regex": "[Hh]idden variable"
+      },
+      {
+        "name": "latent variable",
+        "regex": "[Ll]atent variable"
+      },
+      {
+        "name": "monte-carlo truth",
+        "regex": "[Mm]onte[- ][Cc]arlo truth"
+      },
+      {
+        "name": "unobserved variable",
+        "regex": "[Uu]nobserved variable"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "look elsewhere effect",
+        "regex": "[Ll]ook elsewhere effect"
+      },
+      {
+        "name": "multiple testing",
+        "regex": "[Mm]ultiple testing"
+      },
+      {
+        "name": "trials factor",
+        "regex": "[Tt]rials factor"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "mock data",
+        "regex": "[Mm]ock data"
+      },
+      {
+        "name": "pseudo-data",
+        "regex": "[Pp]seudo[- ]data"
+      },
+      {
+        "name": "synthetic data",
+        "regex": "[Ss]ynthetic data"
+      },
+      {
+        "name": "toy monte carlo",
+        "regex": "[Tt]oy [Mm]onte[- ][Cc]arlo"
+      },
+      {
+        "name": "toymc",
+        "regex": "[Tt]oy[Mm][Cc]"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "gaussian process regression",
+        "regex": "[Gg]aussian process regression"
+      },
+      {
+        "name": "kernel ridge regression",
+        "regex": "[Kk]ernel ridge regression"
+      },
+      {
+        "name": "kriging",
+        "regex": "[Kk]riging"
+      },
+      {
+        "name": "ridge regression",
+        "regex": "[Rr]idge regression"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "gradient log-density",
+        "regex": "[Gg]radient log[- ]density"
+      },
+      {
+        "name": "score function",
+        "regex": "[Ss]core function"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "hamiltonian monte-carlo",
+        "regex": "[Hh]amiltonian [Mm]onte[- ][Cc]arlo"
+      },
+      {
+        "name": "hybrid monte-carlo",
+        "regex": "[Hh]ybrid [Mm]onte[- ][Cc]arlo"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "Gibbs sampling",
+        "regex": "[Gg]ibbs sampling"
+      },
+      {
+        "name": "heat-bath",
+        "regex": "[Hh]eat[- ]?[Bb]ath"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "particle",
+        "regex": "[Pp]article"
+      },
+      {
+        "name": "sample",
+        "regex": "[Ss]ample"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "path",
+        "regex": "[Pp]ath"
+      },
+      {
+        "name": "trajectory",
+        "regex": "[Tt]rajectory"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "earth movers distance",
+        "regex": "[Ee]arth[- ]movers distance"
+      },
+      {
+        "name": "wasserstein distance",
+        "regex": "[Ww]asserstein distance"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "breit-widgner distribution",
+        "regex": "[Bb]reit[- ][Ww]idgner distribution"
+      },
+      {
+        "name": "cauchy distribution",
+        "regex": "[Cc]auchy distribution"
+      },
+      {
+        "name": "lorentz distribution",
+        "regex": "[Ll]orentz distribution"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "cross entropy",
+        "regex": "[Cc]ross entropy"
+      },
+      {
+        "name": "log likelihood",
+        "regex": "[Ll]og[- ][Ll]ikelihood"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "recall",
+        "regex": "[Rr]ecall"
+      },
+      {
+        "name": "sensitivity",
+        "regex": "[Ss]ensitivity"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "categorical distribution",
+        "regex": "[Cc]ategorical distribution"
+      },
+      {
+        "name": "multinomial distribution",
+        "regex": "[Mm]ultinomial distribution"
+      },
+      {
+        "name": "multinoulli distribution",
+        "regex": "[Mm]ultinoulli distribution"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "aleatoric uncertainty",
+        "regex": "[Aa]leatoric[- ]uncertainty"
+      },
+      {
+        "name": "statistical uncertainty",
+        "regex": "[Ss]tatistical[- ]uncertainty"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "epistemic uncertainty",
+        "regex": "[Ee]pistemic[- ]uncertainty"
+      },
+      {
+        "name": "systematic uncertainty",
+        "regex": "[Ss]ystematic[- ]uncertainty"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "data science",
+        "regex": "[Dd]ata [Ss]cience"
+      },
+      {
+        "name": "statistics",
+        "regex": "[Ss]tatistics"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "bottleneck",
+        "regex": "[Bb]ottleneck"
+      },
+      {
+        "name": "embedding",
+        "regex": "[Ee]mbedding"
+      },
+      {
+        "name": "latent variable",
+        "regex": "[Ll]atent variable"
+      },
+      {
+        "name": "low-dimensional variable",
+        "regex": "[Ll]ow[- ]dimensional variable"
+      },
+      {
+        "name": "reduced-size variable",
+        "regex": "[Rr]educed[- ]size variable"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "hubbard-stratonovich transformation",
+        "regex": "[Hh]ubbard[- ][Ss]tratonovich transformation"
+      },
+      {
+        "name": "auxiliary field",
+        "regex": "[Aa]uxiliary field"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "diffeomorphism",
+        "regex": "[Dd]iffeomorphism"
+      },
+      {
+        "name": "function space view",
+        "regex": "[Ff]unction[- ]space view"
+      },
+      {
+        "name": "implicit layer",
+        "regex": "[Ii]mplicit layer"
+      },
+      {
+        "name": "kernel",
+        "regex": "[Kk]ernel"
+      },
+      {
+        "name": "proper-scoring rule",
+        "regex": "[Pp]roper[- ]scoring rule"
+      },
+      {
+        "name": "rank-1 perturbation",
+        "regex": "[Rr]ank[- ]1 perturbation"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "confidence interval",
+        "regex": "[Cc]onfidence[- ]interval"
+      },
+      {
+        "name": "limit",
+        "regex": "[Ll]imit"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "efficiency (hep)",
+        "regex": "[Ee]fficiency[ \\([Hh][Ee][Pp]\\)]?"
+      },
+      {
+        "name": "recall (ml)",
+        "regex": "[Rr]ecall[ \\([Mm][Ll]\\)]?"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "precision (ml)",
+        "regex": "[Pp]recision[ \\([Mm][Ll]\\)]?"
+      },
+      {
+        "name": "purity (hep)",
+        "regex": "[Pp]urity[ \\([Hh][Ee][Pp]\\)]?"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "importance sampling (ml)",
+        "regex": "[Ii]mportance sampling[ \\([Mm][Ll]\\)]?"
+      },
+      {
+        "name": "reweighing (hep)",
+        "regex": "[Rr]eweighing[ \\([Hh][Ee][Pp]\\)]?"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "features (ml)",
+        "regex": "[Ff]eatures[ \\([Mm][Ll]\\)]?"
+      },
+      {
+        "name": "variables (hep)",
+        "regex": "[Vv]ariables[ \\([Hh][Ee][Pp]\\)]?"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "adjoint state method",
+        "regex": "[Aa]djoint[[- ]state]? method"
+      },
+      {
+        "name": "back-propagation",
+        "regex": "[Bb]ack[- ]?propagation"
+      },
+      {
+        "name": "kelley-bryson method",
+        "regex": "[Kk]elley[- ][Bb]ryson method"
+      },
+      {
+        "name": "reverse mode automatic differentiation",
+        "regex": "[Rr]everse[- ]mode automatic differentiation"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "kernel-machine with gaussian kernel",
+        "regex": "[Kk]ernel[- ]machine with [Gg]aussian kernel"
+      },
+      {
+        "name": "rbf network",
+        "regex": "RBF network"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "log-prior",
+        "regex": "[Ll]og[- ]prior"
+      },
+      {
+        "name": "regularizer",
+        "regex": "[Rr]egularizer"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "fero",
+        "regex": "[Ff]ero"
+      },
+      {
+        "name": "kero",
+        "regex": "[Kk]ero"
+      },
+      {
+        "name": "sert",
+        "regex": "[Ss]ert"
+      },
+      {
+        "name": "stres",
+        "regex": "[Ss]tres"
+      },
+      {
+        "name": "tere",
+        "regex": "[Tt]ere"
+      },
+      {
+        "name": "ters",
+        "regex": "[Tt]ers"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "terms": [
+      {
+        "name": "principal-component analysis",
+        "regex": "[Pp]rincipal[- ][Cc]omponent analysis"
+      },
+      {
+        "name": "proper-orthogonal decomposition",
+        "regex": "[Pp]roper[- ][Oo]rthogonal decomposition"
+      }
+    ]
+  }
+]
