@@ -1,0 +1,26 @@
+{
+  "$id": "jargon-group.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JargonGroup",
+  "type": "object",
+  "properties": {
+    "description": {
+      "description": "The concept all the contained jargon terms refers to",
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 256
+    },
+    "terms": {
+      "description": "The list of jargon terms contained in the group",
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 256,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "jargon.schema.json"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": ["description", "terms"]
+}
