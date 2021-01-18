@@ -5,7 +5,7 @@ This repository contains the jargon terms to compute NLP metrics on 💬.
 
 Jargons are grouped in order to improve _one-on-one_ comparison when the meaning of the
 jargons are equal, although the term to describe it varies from science to science.
-These groups are later on used by the [computation pipeline][dialect-map-computing],
+These groups are later on used by the [computing pipeline][dialect-map-computing]
 to generate NLP metrics on the ArXiv papers dataset, so they can be compared within
 the [Dialect map UI][dialect-map-ui].
 
@@ -15,6 +15,16 @@ The project uses [AJV-CLI][ajv-cli-repository] to validate the JSON schemas, and
 It can be installed by running:
 ```shell script
 npm install
+```
+
+
+### Syntax validation
+To validate the JSON-Schema syntax:
+```shell script
+npx ajv validate \
+    -s "schemas/groups.schema.json" \
+    -r "schemas/*.json" \
+    -d "data/jargons.json"
 ```
 
 
