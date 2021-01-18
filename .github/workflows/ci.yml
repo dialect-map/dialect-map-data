@@ -1,0 +1,38 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/*.json"
+      - "schemas/*.json"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "data/*.json"
+      - "schemas/*.json"
+
+jobs:
+
+  validate:
+    needs: []
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Set up GitHub Actions"
+        uses: actions/checkout@v2
+      - name: "Setup node"
+        uses: actions/setup-node@v2
+        with:
+          node-version: 15
+      - name: "Install dependencies"
+        run: npm install --silent
+      - name: "Validate JSON schemas"
+        run: |
+          npx ajv compile -s schemas/jargon.schema.json
+          npx ajv compile -s schemas/jargon-group.schema.json
+          npx ajv compile -s schemas/groups.schema.json -r "schemas/*.json"
+      - name: "Validate JSON data"
+        run: |
+          npx ajv validate -s schemas/groups.schema.json -r "schemas/*.json" -d data/jargons.json
