@@ -27,8 +27,8 @@ jobs:
         with:
           node-version: 15
       - name: "Install dependencies"
-        run: npm install --silent
+        run: npm install
       - name: "Validate JSON schemas"
-        run: npx ajv compile -s schemas/groups.schema.json -r "schemas/*.json"
+        run: make compile
       - name: "Validate JSON data"
-        run: npx ajv validate -s schemas/groups.schema.json -r "schemas/*.json" -d data/jargons.json
+        run: make validate

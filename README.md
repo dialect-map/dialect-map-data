@@ -21,10 +21,7 @@ npm install
 ### Syntax validation
 To validate the JSON-Schema syntax:
 ```shell script
-npx ajv validate \
-    -s "schemas/groups.schema.json" \
-    -r "schemas/*.json" \
-    -d "data/jargons.json"
+make validate
 ```
 
 
