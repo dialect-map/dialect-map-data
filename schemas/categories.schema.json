@@ -3,6 +3,6 @@
   "title": "CategoryList",
   "type": "array",
   "items": {
-    "$ref": "category.schema.json"
+    "$ref": "defs/category.schema.json"
   }
 }

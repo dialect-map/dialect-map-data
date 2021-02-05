@@ -1,5 +1,5 @@
 {
-  "$id": "jargon-group.schema.json",
+  "$id": "defs/jargon-group.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "JargonGroup",
   "type": "object",

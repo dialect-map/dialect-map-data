@@ -3,6 +3,6 @@
   "title": "GroupsList",
   "type": "array",
   "items": {
-    "$ref": "jargon-group.schema.json"
+    "$ref": "defs/jargon-group.schema.json"
   }
 }
