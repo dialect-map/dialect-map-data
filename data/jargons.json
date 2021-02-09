@@ -374,12 +374,12 @@
     "description": "",
     "terms": [
       {
-        "name": "efficiency (hep)",
-        "regex": "[Ee]fficiency[ \\([Hh][Ee][Pp]\\)]?"
+        "name": "importance sampling",
+        "regex": "[Ii]mportance sampling"
       },
       {
-        "name": "recall (ml)",
-        "regex": "[Rr]ecall[ \\([Mm][Ll]\\)]?"
+        "name": "reweighing",
+        "regex": "[Rr]eweighing"
       }
     ]
   },
@@ -387,38 +387,12 @@
     "description": "",
     "terms": [
       {
-        "name": "precision (ml)",
-        "regex": "[Pp]recision[ \\([Mm][Ll]\\)]?"
+        "name": "features",
+        "regex": "[Ff]eatures"
       },
       {
-        "name": "purity (hep)",
-        "regex": "[Pp]urity[ \\([Hh][Ee][Pp]\\)]?"
-      }
-    ]
-  },
-  {
-    "description": "",
-    "terms": [
-      {
-        "name": "importance sampling (ml)",
-        "regex": "[Ii]mportance sampling[ \\([Mm][Ll]\\)]?"
-      },
-      {
-        "name": "reweighing (hep)",
-        "regex": "[Rr]eweighing[ \\([Hh][Ee][Pp]\\)]?"
-      }
-    ]
-  },
-  {
-    "description": "",
-    "terms": [
-      {
-        "name": "features (ml)",
-        "regex": "[Ff]eatures[ \\([Mm][Ll]\\)]?"
-      },
-      {
-        "name": "variables (hep)",
-        "regex": "[Vv]ariables[ \\([Hh][Ee][Pp]\\)]?"
+        "name": "variables",
+        "regex": "[Vv]ariables"
       }
     ]
   },
