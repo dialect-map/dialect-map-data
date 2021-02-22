@@ -1,485 +1,599 @@
 [
   {
+    "id": "group-1",
     "description": "",
     "terms": [
       {
+        "id": "group-1-jargon-1",
         "name": "kullback–leibler divergence",
         "regex": "[Kk]ullback[- ][Ll]eibler divergence"
       },
       {
+        "id": "group-1-jargon-2",
         "name": "relative entropy",
         "regex": "[Rr]elative entropy"
       }
     ]
   },
   {
+    "id": "group-2",
     "description": "",
     "terms": [
       {
+        "id": "group-2-jargon-1",
         "name": "elbo",
         "regex": "ELBO"
       },
       {
+        "id": "group-2-jargon-2",
         "name": "evidence lower bound",
         "regex": "[Ee]vidence lower bound"
       },
       {
+        "id": "group-2-jargon-3",
         "name": "variational free energy",
         "regex": "[Vv]ariational free energy"
       }
     ]
   },
   {
+    "id": "group-3",
     "description": "",
     "terms": [
       {
+        "id": "group-3-jargon-1",
         "name": "hidden variable",
         "regex": "[Hh]idden variable"
       },
       {
+        "id": "group-3-jargon-2",
         "name": "latent variable",
         "regex": "[Ll]atent variable"
       },
       {
+        "id": "group-3-jargon-3",
         "name": "monte-carlo truth",
         "regex": "[Mm]onte[- ][Cc]arlo truth"
       },
       {
+        "id": "group-3-jargon-4",
         "name": "unobserved variable",
         "regex": "[Uu]nobserved variable"
       }
     ]
   },
   {
+    "id": "group-4",
     "description": "",
     "terms": [
       {
+        "id": "group-4-jargon-1",
         "name": "look elsewhere effect",
         "regex": "[Ll]ook elsewhere effect"
       },
       {
+        "id": "group-4-jargon-2",
         "name": "multiple testing",
         "regex": "[Mm]ultiple testing"
       },
       {
+        "id": "group-4-jargon-3",
         "name": "trials factor",
         "regex": "[Tt]rials factor"
       }
     ]
   },
   {
+    "id": "group-5",
     "description": "",
     "terms": [
       {
+        "id": "group-5-jargon-1",
         "name": "mock data",
         "regex": "[Mm]ock data"
       },
       {
+        "id": "group-5-jargon-2",
         "name": "pseudo-data",
         "regex": "[Pp]seudo[- ]data"
       },
       {
+        "id": "group-5-jargon-3",
         "name": "synthetic data",
         "regex": "[Ss]ynthetic data"
       },
       {
+        "id": "group-5-jargon-4",
         "name": "toy monte carlo",
         "regex": "[Tt]oy [Mm]onte[- ][Cc]arlo"
       },
       {
+        "id": "group-5-jargon-5",
         "name": "toymc",
         "regex": "[Tt]oy[Mm][Cc]"
       }
     ]
   },
   {
+    "id": "group-6",
     "description": "",
     "terms": [
       {
+        "id": "group-6-jargon-1",
         "name": "gaussian process regression",
         "regex": "[Gg]aussian process regression"
       },
       {
+        "id": "group-6-jargon-2",
         "name": "kernel ridge regression",
         "regex": "[Kk]ernel ridge regression"
       },
       {
+        "id": "group-6-jargon-3",
         "name": "kriging",
         "regex": "[Kk]riging"
       },
       {
+        "id": "group-6-jargon-4",
         "name": "ridge regression",
         "regex": "[Rr]idge regression"
       }
     ]
   },
   {
+    "id": "group-7",
     "description": "",
     "terms": [
       {
+        "id": "group-7-jargon-1",
         "name": "gradient log-density",
         "regex": "[Gg]radient log[- ]density"
       },
       {
+        "id": "group-7-jargon-2",
         "name": "score function",
         "regex": "[Ss]core function"
       }
     ]
   },
   {
+    "id": "group-8",
     "description": "",
     "terms": [
       {
+        "id": "group-8-jargon-1",
         "name": "hamiltonian monte-carlo",
         "regex": "[Hh]amiltonian [Mm]onte[- ][Cc]arlo"
       },
       {
+        "id": "group-8-jargon-2",
         "name": "hybrid monte-carlo",
         "regex": "[Hh]ybrid [Mm]onte[- ][Cc]arlo"
       }
     ]
   },
   {
+    "id": "group-9",
     "description": "",
     "terms": [
       {
+        "id": "group-9-jargon-1",
         "name": "Gibbs sampling",
         "regex": "[Gg]ibbs sampling"
       },
       {
+        "id": "group-9-jargon-2",
         "name": "heat-bath",
         "regex": "[Hh]eat[- ]?[Bb]ath"
       }
     ]
   },
   {
+    "id": "group-10",
     "description": "",
     "terms": [
       {
+        "id": "group-10-jargon-1",
         "name": "particle",
         "regex": "[Pp]article"
       },
       {
+        "id": "group-10-jargon-2",
         "name": "sample",
         "regex": "[Ss]ample"
       }
     ]
   },
   {
+    "id": "group-11",
     "description": "",
     "terms": [
       {
+        "id": "group-11-jargon-1",
         "name": "path",
         "regex": "[Pp]ath"
       },
       {
+        "id": "group-11-jargon-2",
         "name": "trajectory",
         "regex": "[Tt]rajectory"
       }
     ]
   },
   {
+    "id": "group-12",
     "description": "",
     "terms": [
       {
+        "id": "group-12-jargon-1",
         "name": "earth movers distance",
         "regex": "[Ee]arth[- ]movers distance"
       },
       {
+        "id": "group-12-jargon-2",
         "name": "wasserstein distance",
         "regex": "[Ww]asserstein distance"
       }
     ]
   },
   {
+    "id": "group-13",
     "description": "",
     "terms": [
       {
+        "id": "group-13-jargon-1",
         "name": "breit-widgner distribution",
         "regex": "[Bb]reit[- ][Ww]idgner distribution"
       },
       {
+        "id": "group-13-jargon-2",
         "name": "cauchy distribution",
         "regex": "[Cc]auchy distribution"
       },
       {
+        "id": "group-13-jargon-3",
         "name": "lorentz distribution",
         "regex": "[Ll]orentz distribution"
       }
     ]
   },
   {
+    "id": "group-14",
     "description": "",
     "terms": [
       {
+        "id": "group-14-jargon-1",
         "name": "cross entropy",
         "regex": "[Cc]ross entropy"
       },
       {
+        "id": "group-14-jargon-2",
         "name": "log likelihood",
         "regex": "[Ll]og[- ][Ll]ikelihood"
       }
     ]
   },
   {
+    "id": "group-15",
     "description": "",
     "terms": [
       {
+        "id": "group-15-jargon-1",
         "name": "recall",
         "regex": "[Rr]ecall"
       },
       {
+        "id": "group-15-jargon-2",
         "name": "sensitivity",
         "regex": "[Ss]ensitivity"
       }
     ]
   },
   {
+    "id": "group-16",
     "description": "",
     "terms": [
       {
+        "id": "group-16-jargon-1",
         "name": "categorical distribution",
         "regex": "[Cc]ategorical distribution"
       },
       {
+        "id": "group-16-jargon-2",
         "name": "multinomial distribution",
         "regex": "[Mm]ultinomial distribution"
       },
       {
+        "id": "group-16-jargon-3",
         "name": "multinoulli distribution",
         "regex": "[Mm]ultinoulli distribution"
       }
     ]
   },
   {
+    "id": "group-17",
     "description": "",
     "terms": [
       {
+        "id": "group-17-jargon-1",
         "name": "aleatoric uncertainty",
         "regex": "[Aa]leatoric[- ]uncertainty"
       },
       {
+        "id": "group-17-jargon-2",
         "name": "statistical uncertainty",
         "regex": "[Ss]tatistical[- ]uncertainty"
       }
     ]
   },
   {
+    "id": "group-18",
     "description": "",
     "terms": [
       {
+        "id": "group-18-jargon-1",
         "name": "epistemic uncertainty",
         "regex": "[Ee]pistemic[- ]uncertainty"
       },
       {
+        "id": "group-18-jargon-2",
         "name": "systematic uncertainty",
         "regex": "[Ss]ystematic[- ]uncertainty"
       }
     ]
   },
   {
+    "id": "group-19",
     "description": "",
     "terms": [
       {
+        "id": "group-19-jargon-1",
         "name": "data science",
         "regex": "[Dd]ata [Ss]cience"
       },
       {
+        "id": "group-19-jargon-2",
         "name": "statistics",
         "regex": "[Ss]tatistics"
       }
     ]
   },
   {
+    "id": "group-20",
     "description": "",
     "terms": [
       {
+        "id": "group-20-jargon-1",
         "name": "bottleneck",
         "regex": "[Bb]ottleneck"
       },
       {
+        "id": "group-20-jargon-2",
         "name": "embedding",
         "regex": "[Ee]mbedding"
       },
       {
+        "id": "group-20-jargon-3",
         "name": "latent variable",
         "regex": "[Ll]atent variable"
       },
       {
+        "id": "group-20-jargon-4",
         "name": "low-dimensional variable",
         "regex": "[Ll]ow[- ]dimensional variable"
       },
       {
+        "id": "group-20-jargon-5",
         "name": "reduced-size variable",
         "regex": "[Rr]educed[- ]size variable"
       }
     ]
   },
   {
+    "id": "group-21",
     "description": "",
     "terms": [
       {
+        "id": "group-21-jargon-1",
         "name": "hubbard-stratonovich transformation",
         "regex": "[Hh]ubbard[- ][Ss]tratonovich transformation"
       },
       {
+        "id": "group-21-jargon-2",
         "name": "auxiliary field",
         "regex": "[Aa]uxiliary field"
       }
     ]
   },
   {
+    "id": "group-22",
     "description": "",
     "terms": [
       {
+        "id": "group-22-jargon-1",
         "name": "diffeomorphism",
         "regex": "[Dd]iffeomorphism"
       },
       {
+        "id": "group-22-jargon-2",
         "name": "function space view",
         "regex": "[Ff]unction[- ]space view"
       },
       {
+        "id": "group-22-jargon-3",
         "name": "implicit layer",
         "regex": "[Ii]mplicit layer"
       },
       {
+        "id": "group-22-jargon-4",
         "name": "kernel",
         "regex": "[Kk]ernel"
       },
       {
+        "id": "group-22-jargon-5",
         "name": "proper-scoring rule",
         "regex": "[Pp]roper[- ]scoring rule"
       },
       {
+        "id": "group-22-jargon-6",
         "name": "rank-1 perturbation",
         "regex": "[Rr]ank[- ]1 perturbation"
       }
     ]
   },
   {
+    "id": "group-23",
     "description": "",
     "terms": [
       {
+        "id": "group-23-jargon-1",
         "name": "confidence interval",
         "regex": "[Cc]onfidence[- ]interval"
       },
       {
+        "id": "group-23-jargon-2",
         "name": "limit",
         "regex": "[Ll]imit"
       }
     ]
   },
   {
+    "id": "group-24",
     "description": "",
     "terms": [
       {
+        "id": "group-24-jargon-1",
         "name": "importance sampling",
         "regex": "[Ii]mportance sampling"
       },
       {
+        "id": "group-24-jargon-2",
         "name": "reweighing",
         "regex": "[Rr]eweighing"
       }
     ]
   },
   {
+    "id": "group-25",
     "description": "",
     "terms": [
       {
+        "id": "group-25-jargon-1",
         "name": "features",
         "regex": "[Ff]eatures"
       },
       {
+        "id": "group-25-jargon-2",
         "name": "variables",
         "regex": "[Vv]ariables"
       }
     ]
   },
   {
+    "id": "group-26",
     "description": "",
     "terms": [
       {
+        "id": "group-26-jargon-1",
         "name": "adjoint state method",
         "regex": "[Aa]djoint[[- ]state]? method"
       },
       {
+        "id": "group-26-jargon-2",
         "name": "back-propagation",
         "regex": "[Bb]ack[- ]?propagation"
       },
       {
+        "id": "group-26-jargon-3",
         "name": "kelley-bryson method",
         "regex": "[Kk]elley[- ][Bb]ryson method"
       },
       {
+        "id": "group-26-jargon-4",
         "name": "reverse mode automatic differentiation",
         "regex": "[Rr]everse[- ]mode automatic differentiation"
       }
     ]
   },
   {
+    "id": "group-27",
     "description": "",
     "terms": [
       {
+        "id": "group-27-jargon-1",
         "name": "kernel-machine with gaussian kernel",
         "regex": "[Kk]ernel[- ]machine with [Gg]aussian kernel"
       },
       {
+        "id": "group-27-jargon-2",
         "name": "rbf network",
         "regex": "RBF network"
       }
     ]
   },
   {
+    "id": "group-28",
     "description": "",
     "terms": [
       {
+        "id": "group-28-jargon-1",
         "name": "log-prior",
         "regex": "[Ll]og[- ]prior"
       },
       {
+        "id": "group-28-jargon-2",
         "name": "regularizer",
         "regex": "[Rr]egularizer"
       }
     ]
   },
   {
+    "id": "group-29",
     "description": "",
     "terms": [
       {
+        "id": "group-29-jargon-1",
         "name": "fero",
         "regex": "[Ff]ero"
       },
       {
+        "id": "group-29-jargon-2",
         "name": "kero",
         "regex": "[Kk]ero"
       },
       {
+        "id": "group-29-jargon-3",
         "name": "sert",
         "regex": "[Ss]ert"
       },
       {
+        "id": "group-29-jargon-4",
         "name": "stres",
         "regex": "[Ss]tres"
       },
       {
+        "id": "group-29-jargon-5",
         "name": "tere",
         "regex": "[Tt]ere"
       },
       {
+        "id": "group-29-jargon-6",
         "name": "ters",
         "regex": "[Tt]ers"
       }
     ]
   },
   {
+    "id": "group-30",
     "description": "",
     "terms": [
       {
+        "id": "group-30-jargon-1",
         "name": "principal-component analysis",
         "regex": "[Pp]rincipal[- ][Cc]omponent analysis"
       },
       {
+        "id": "group-30-jargon-2",
         "name": "proper-orthogonal decomposition",
         "regex": "[Pp]roper[- ][Oo]rthogonal decomposition"
       }

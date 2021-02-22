@@ -4,6 +4,12 @@
   "title": "Jargon",
   "type": "object",
   "properties": {
+    "id": {
+      "description": "The jargon ID",
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 32
+    },
     "name": {
       "description": "The lower case name of the jargon term",
       "type": "string",
@@ -16,5 +22,5 @@
     }
   },
   "additionalProperties": false,
-  "required": ["name", "regex"]
+  "required": ["id", "name", "regex"]
 }
