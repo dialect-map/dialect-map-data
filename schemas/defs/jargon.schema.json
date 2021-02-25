@@ -19,8 +19,12 @@
     "regex": {
       "description": "The jargon term regex to consider every similar expression together",
       "type": "string"
+    },
+    "archived": {
+      "description": "Whether the group has been archived or not (soft delete)",
+      "type": "boolean"
     }
   },
   "additionalProperties": false,
-  "required": ["id", "name", "regex"]
+  "required": ["id", "name", "regex", "archived"]
 }
