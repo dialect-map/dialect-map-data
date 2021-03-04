@@ -8,7 +8,8 @@
       "description": "The jargon group ID",
       "type": "string",
       "minLength": 2,
-      "maxLength": 32
+      "maxLength": 32,
+      "pattern": "^group-\\d+$"
     },
     "description": {
       "description": "The concept all the contained jargon terms refers to",
