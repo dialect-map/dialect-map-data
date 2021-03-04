@@ -8,7 +8,7 @@ for comparison in the [Dialect map UI][dialect-map-ui].
 ## Operations
 These are all the operations that community contributors can perform.
 
-### Add a new object 🌱
+### 🌱 Add a new object
 When defining a new _jargon group_, or a new _jargon term_, the new JSON object must have
 a unique ID within the file.
 
@@ -17,19 +17,20 @@ a unique ID within the file.
 
 In addition, contributors must set the `archived` field as `false`, for the object to be properly stored.
 
-### Archive existing object 🗄
-When removing an existing object, contributors must set its `archived` property as `true`.
-This operation is usually referred to as [_soft deletion_][wiki-soft-delete].
+### 🗄 Archive existing object
+When _removing_ an existing object, contributors must change its `archived` property to `true`.
+This operation is called [_soft deletion_][wiki-soft-delete].
 
-Implementing an _archival_ methodology allow the data files to preserved all the _jargon groups_
-and _jargon terms_ that were ever defined. This preservation is **very useful** for several reasons:
+Implementing an _archival_ procedure allow the data files to preserve all the _jargon groups_ and
+_jargon terms_ that were ever defined. This preservation is **very useful** for several reasons:
 
 - It helps contributors know the sequential ID they must specify on new created objects.
 - It eases the automatic differentiation of JSON objects inside arrays (very hard otherwise).
 
-### Edit existing object ✏️
+### ✏️ Edit existing object
 Modification of existing objects is **not supported**. If you discover a relevant typo or something
 semantically incorrect in the definition of _jargon groups_, you should:
+
 1. Archive the invalid object.
 2. Define a new one with the error corrected.
 

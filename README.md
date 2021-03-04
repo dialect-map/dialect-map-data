@@ -50,6 +50,6 @@ by the Dialect map team to ensure that the resulting JSON is well formatted.
 [ajv-cli-repository]: https://github.com/ajv-validator/ajv-cli
 [arxiv-api-guide]: https://arxiv.org/help/api/user-manual#53-subject-classifications
 [dialect-map-ui]: https://github.com/dialect-map/dialect-map-ui
-[docs-contrib]: docs/contrib.md
+[docs-contrib]: docs/contribute.md
 [docs-compute]: docs/compute.md
 [google-form-jargons]: https://docs.google.com/forms/d/e/1FAIpQLScFC2BjIbd_WfY4ghCmZt_1QW5_tC8wZMoIa64vUWSxP9Xc9w/viewform
