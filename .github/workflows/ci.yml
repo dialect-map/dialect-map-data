@@ -5,14 +5,14 @@ on:
     branches:
       - main
     paths:
-      - "data/*.json"
-      - "schemas/*.json"
+      - "data/**/*.json"
+      - "schemas/**/*.json"
   pull_request:
     branches:
       - main
     paths:
-      - "data/*.json"
-      - "schemas/*.json"
+      - "data/**/*.json"
+      - "schemas/**/*.json"
 
 jobs:
 
