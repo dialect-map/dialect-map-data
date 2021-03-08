@@ -1,0 +1,138 @@
+name: Publish diffs [Backfill]
+
+on:
+  workflow_dispatch:
+    inputs:
+      old_revision:
+        description: "GIT SHA for the data files version to compare against"
+        required: true
+      new_revision:
+        description: "GIT SHA for the data files version to compare from"
+        required: true
+
+
+env:
+  DATA_FILES_DIR: "data"
+  DIFF_FILES_DIR: ".tmp/diff"
+  REVS_FILES_DIR: ".tmp/revs"
+
+
+jobs:
+
+  validate:
+    needs: []
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Set up GitHub Actions"
+        uses: actions/checkout@v2
+      - name: "Set up node"
+        uses: actions/setup-node@v2
+        with:
+          node-version: 15
+      - name: "Install dependencies"
+        run: npm install --only=prod
+      - name: "Validate JSON schemas"
+        run: make compile
+      - name: "Validate JSON data"
+        run: make validate
+
+  compute:
+    needs: [validate]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      max-parallel: 1
+      matrix:
+        file_name: ["categories.json", "jargons.json"]
+    env:
+      JSON_DIFF_REPO: "github.com/josephburnett/jd@v1.3.0"
+    steps:
+      - name: "Set up GitHub Actions"
+        uses: actions/checkout@v2
+      - name: "Set up Golang"
+        uses: actions/setup-go@v2
+        with:
+          go-version: "1.13"
+      - name: "Install Golang utility"
+        run: |
+          go get ${{ env.JSON_DIFF_REPO }}
+      - name: "Create temporal directory"
+        run: |
+          mkdir -p ${{ env.DIFF_FILES_DIR }}
+          mkdir -p ${{ env.REVS_FILES_DIR }}
+      - name: "Export file paths"
+        run: |
+          data_file_path="${{ env.DATA_FILES_DIR }}/${{ matrix.file_name }}"
+          prev_file_path="${{ env.REVS_FILES_DIR }}/prev-${{ matrix.file_name }}"
+          post_file_path="${{ env.REVS_FILES_DIR }}/post-${{ matrix.file_name }}"
+          diff_file_path="${{ env.DIFF_FILES_DIR }}/diff-${{ matrix.file_name }}"
+
+          echo "DATA_FILE_PATH=${data_file_path}" >> ${GITHUB_ENV}
+          echo "PREV_FILE_PATH=${prev_file_path}" >> ${GITHUB_ENV}
+          echo "POST_FILE_PATH=${post_file_path}" >> ${GITHUB_ENV}
+          echo "DIFF_FILE_PATH=${diff_file_path}" >> ${GITHUB_ENV}
+      - name: "Save file revisions contents"
+        run: |
+          prev_file_object="${{ github.event.inputs.old_revision }}:${{ env.DATA_FILE_PATH }}"
+          post_file_object="${{ github.event.inputs.new_revision }}:${{ env.DATA_FILE_PATH }}"
+
+          { git cat-file -p ${prev_file_object} || echo "[]"; } > ${{ env.PREV_FILE_PATH }}
+          { git cat-file -p ${post_file_object} || echo "[]"; } > ${{ env.POST_FILE_PATH }}
+      - name: "Compute file data diffs"
+        run: |
+          jd -o \
+            ${{ env.DIFF_FILE_PATH }} \
+            ${{ env.PREV_FILE_PATH }} \
+            ${{ env.POST_FILE_PATH }}
+      - name: "Upload data diff artifact"
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ matrix.file_name }}
+          path: ${{ env.DIFF_FILE_PATH }}
+          retention-days: 7
+
+  publish:
+    needs: [compute]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      max-parallel: 1
+      matrix:
+        file_name: ["categories.json", "jargons.json"]
+    env:
+      GCP_PROJECT_ID: "${{ secrets.DM_PROJECT_ID }}"
+      GCP_TOPIC_NAME: "${{ secrets.DM_DIFF_TOPIC_NAME }}"
+      GCP_SECRET_KEY: "${{ secrets.DM_DIFF_SA_KEY }}"
+      GCP_SECRET_KEY_PATH: "./service_account_key.json"
+
+      # This env. variable is established so the Pub/Sub publisher can authenticate with GCP
+      # Ref: https://cloud.google.com/docs/authentication/production
+      GOOGLE_APPLICATION_CREDENTIALS: "./service_account_key.json"
+    steps:
+      - name: "Set up GitHub Actions"
+        uses: actions/checkout@v2
+      - name: "Set up node"
+        uses: actions/setup-node@v2
+        with:
+          node-version: 15
+      - name: "Set up private packages SSH keys"
+        uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: |
+            ${{ secrets.DM_DIFF_SSH_KEY }}
+      - name: "Install dependencies"
+        run: npm install
+      - name: "Install dependencies"
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ matrix.file_name }}
+          path: ${{ env.DIFF_FILES_DIR }}
+      - name: "Save GCP Service Account key"
+        run: echo ${GCP_SECRET_KEY} > ${GCP_SECRET_KEY_PATH}
+      - name: "Publish data diffs"
+        run: |
+          npx dm-diff publish \
+            --data-file "${{ env.DATA_FILES_DIR }}/${{ matrix.file_name }}" \
+            --diff-file "${{ env.DIFF_FILES_DIR }}/${{ matrix.file_name }}" \
+            --gcp-project ${{ env.GCP_PROJECT_ID }} \
+            --gcp-pubsub ${{ env.GCP_TOPIC_NAME }}
