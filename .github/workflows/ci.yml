@@ -14,6 +14,7 @@ on:
       - "data/**/*.json"
       - "schemas/**/*.json"
 
+
 jobs:
 
   validate:
@@ -22,12 +23,12 @@ jobs:
     steps:
       - name: "Set up GitHub Actions"
         uses: actions/checkout@v2
-      - name: "Setup node"
+      - name: "Set up node"
         uses: actions/setup-node@v2
         with:
           node-version: 15
       - name: "Install dependencies"
-        run: npm install
+        run: npm install --only=prod
       - name: "Validate JSON schemas"
         run: make compile
       - name: "Validate JSON data"
