@@ -9,6 +9,9 @@ on:
       new_revision:
         description: "GIT SHA for the data files version to compare from"
         required: true
+      debug_flag:
+        description: "Boolean specifying if the run is for debugging purposes"
+        required: true
 
 
 env:
@@ -135,4 +138,5 @@ jobs:
             --data-file "${{ env.DATA_FILES_DIR }}/${{ matrix.file_name }}" \
             --diff-file "${{ env.DIFF_FILES_DIR }}/${{ matrix.file_name }}" \
             --gcp-project ${{ env.GCP_PROJECT_ID }} \
-            --gcp-pubsub ${{ env.GCP_TOPIC_NAME }}
+            --gcp-pubsub ${{ env.GCP_TOPIC_NAME }} \
+            --debug-flag ${{ github.event.inputs.debug_flag }}
