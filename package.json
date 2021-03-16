@@ -5,7 +5,7 @@
   "dependencies": {
     "ajv-cli": "^4.0.1"
   },
-  "devDependencies": {
+  "optionalDependencies": {
     "dm-diff": "git+ssh://git@github.com:dialect-map/dialect-map-data-diff.git#v0.2.1"
   }
 }
