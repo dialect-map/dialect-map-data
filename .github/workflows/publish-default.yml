@@ -122,6 +122,8 @@ jobs:
             ${{ secrets.DM_DIFF_SSH_KEY }}
       - name: "Install dependencies"
         run: npm install
+      - name: "Create temporal directory"
+        run: mkdir -p ${{ env.DIFF_FILES_DIR }}
       - name: "Download data diff artifact"
         uses: actions/download-artifact@v2
         with:
