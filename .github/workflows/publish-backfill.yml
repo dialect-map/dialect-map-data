@@ -126,7 +126,7 @@ jobs:
             ${{ secrets.DM_DIFF_SSH_KEY }}
       - name: "Install dependencies"
         run: npm install
-      - name: "Install dependencies"
+      - name: "Download data diff artifact"
         uses: actions/download-artifact@v2
         with:
           name: ${{ matrix.file_name }}
@@ -135,9 +135,10 @@ jobs:
         run: echo ${GCP_SECRET_KEY} > ${GCP_SECRET_KEY_PATH}
       - name: "Publish data diffs"
         run: |
-          npx dm-diff publish \
-            --data-file "${{ env.DATA_FILES_DIR }}/${{ matrix.file_name }}" \
-            --diff-file "${{ env.DIFF_FILES_DIR }}/${{ matrix.file_name }}" \
+          data_file_path="${{ env.DATA_FILES_DIR }}/${{ matrix.file_name }}"
+          diff_file_path="${{ env.DIFF_FILES_DIR }}/${{ matrix.file_name }}"
+
+          npx dm-diff publish ${data_file_path} ${diff_file_path} \
             --gcp-project ${{ env.GCP_PROJECT_ID }} \
             --gcp-pubsub ${{ env.GCP_TOPIC_NAME }} \
             --debug-flag ${{ github.event.inputs.debug_flag }}
