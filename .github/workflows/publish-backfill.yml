@@ -58,6 +58,7 @@ jobs:
           go-version: "1.13"
       - name: "Install Golang utility"
         run: |
+          export GO111MODULE=on
           go get ${{ env.JSON_DIFF_REPO }}
       - name: "Create temporal directory"
         run: |
