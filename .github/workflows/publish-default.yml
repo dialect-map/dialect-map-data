@@ -63,14 +63,14 @@ jobs:
       - name: "Export file paths"
         run: |
           data_file_path="${{ env.DATA_FILES_DIR }}/${{ matrix.file_name }}"
+          diff_file_path="${{ env.DIFF_FILES_DIR }}/${{ matrix.file_name }}"
           prev_file_path="${{ env.REVS_FILES_DIR }}/prev-${{ matrix.file_name }}"
           post_file_path="${{ env.REVS_FILES_DIR }}/post-${{ matrix.file_name }}"
-          diff_file_path="${{ env.DIFF_FILES_DIR }}/diff-${{ matrix.file_name }}"
 
           echo "DATA_FILE_PATH=${data_file_path}" >> ${GITHUB_ENV}
+          echo "DIFF_FILE_PATH=${diff_file_path}" >> ${GITHUB_ENV}
           echo "PREV_FILE_PATH=${prev_file_path}" >> ${GITHUB_ENV}
           echo "POST_FILE_PATH=${post_file_path}" >> ${GITHUB_ENV}
-          echo "DIFF_FILE_PATH=${diff_file_path}" >> ${GITHUB_ENV}
       - name: "Save file revisions contents"
         run: |
           prev_file_object="${{ github.event.before }}:${{ env.DATA_FILE_PATH }}"
