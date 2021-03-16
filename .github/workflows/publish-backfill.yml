@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       old_revision:
-        description: "GIT SHA for the data files version to compare against"
+        description: "Lower bound GIT SHA"
         required: true
       new_revision:
-        description: "GIT SHA for the data files version to compare from"
+        description: "Upper bound GIT SHA"
         required: true
       debug_flag:
-        description: "Boolean specifying if the run is for debugging purposes"
+        description: "Is a debug run? (true / false)"
         required: true
 
 
