@@ -13,7 +13,7 @@ on the ArXiv papers dataset, so they can be compared within the [Dialect map UI]
 The project uses [AJV-CLI][ajv-cli-repository] to validate the JSON schemas, and the jargon list.
 It can be installed by running:
 ```shell script
-npm install --only=prod
+npm install --no-optional
 ```
 
 
