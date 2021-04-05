@@ -428,54 +428,17 @@
   },
   {
     "id": "group-20",
-    "description": "",
-    "archived": false,
-    "terms": [
-      {
-        "id": "group-20-jargon-1",
-        "name": "bottleneck",
-        "regex": "[Bb]ottleneck",
-        "archived": false
-      },
-      {
-        "id": "group-20-jargon-2",
-        "name": "embedding",
-        "regex": "[Ee]mbedding",
-        "archived": false
-      },
-      {
-        "id": "group-20-jargon-3",
-        "name": "latent variable",
-        "regex": "[Ll]atent variable",
-        "archived": false
-      },
-      {
-        "id": "group-20-jargon-4",
-        "name": "low-dimensional variable",
-        "regex": "[Ll]ow[- ]dimensional variable",
-        "archived": false
-      },
-      {
-        "id": "group-20-jargon-5",
-        "name": "reduced-size variable",
-        "regex": "[Rr]educed[- ]size variable",
-        "archived": false
-      }
-    ]
-  },
-  {
-    "id": "group-21",
     "description": "Mathematical transformation used to convert a particle theory into its respective field theory by linearizing the density operator and introducing an auxiliary scalar field",
     "archived": false,
     "terms": [
       {
-        "id": "group-21-jargon-1",
+        "id": "group-20-jargon-1",
         "name": "hubbard-stratonovich transformation",
         "regex": "[Hh]ubbard[- ][Ss]tratonovich transformation",
         "archived": false
       },
       {
-        "id": "group-21-jargon-2",
+        "id": "group-20-jargon-2",
         "name": "auxiliary field",
         "regex": "[Aa]uxiliary field",
         "archived": false
@@ -647,49 +610,6 @@
         "id": "group-28-jargon-2",
         "name": "regularizer",
         "regex": "[Rr]egularizer",
-        "archived": false
-      }
-    ]
-  },
-  {
-    "id": "group-29",
-    "description": "",
-    "archived": false,
-    "terms": [
-      {
-        "id": "group-29-jargon-1",
-        "name": "fero",
-        "regex": "[Ff]ero",
-        "archived": false
-      },
-      {
-        "id": "group-29-jargon-2",
-        "name": "kero",
-        "regex": "[Kk]ero",
-        "archived": false
-      },
-      {
-        "id": "group-29-jargon-3",
-        "name": "sert",
-        "regex": "[Ss]ert",
-        "archived": false
-      },
-      {
-        "id": "group-29-jargon-4",
-        "name": "stres",
-        "regex": "[Ss]tres",
-        "archived": false
-      },
-      {
-        "id": "group-29-jargon-5",
-        "name": "tere",
-        "regex": "[Tt]ere",
-        "archived": false
-      },
-      {
-        "id": "group-29-jargon-6",
-        "name": "ters",
-        "regex": "[Tt]ers",
         "archived": false
       }
     ]
