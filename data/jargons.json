@@ -1,7 +1,7 @@
 [
   {
     "id": "group-1",
-    "description": "",
+    "description": "Mathematical statistics measure of how one probability distribution is different from a second, reference probability distribution",
     "archived": false,
     "terms": [
       {
@@ -20,7 +20,7 @@
   },
   {
     "id": "group-2",
-    "description": "",
+    "description": "Statistics concepts referring to the quantity optimized in Variational Bayesian methods",
     "archived": false,
     "terms": [
       {
@@ -45,7 +45,7 @@
   },
   {
     "id": "group-3",
-    "description": "",
+    "description": "Statistics concepts referring to the variables that are not directly observed, but rather inferred from other observed variables",
     "archived": false,
     "terms": [
       {
@@ -76,7 +76,7 @@
   },
   {
     "id": "group-4",
-    "description": "",
+    "description": "Phenomenon in the statistical analysis of scientific experiment where an apparently significant observation may have actually arisen by chance",
     "archived": false,
     "terms": [
       {
@@ -101,7 +101,7 @@
   },
   {
     "id": "group-5",
-    "description": "",
+    "description": "Concept referring to the artificial data that can be created using statistical methods",
     "archived": false,
     "terms": [
       {
@@ -138,7 +138,7 @@
   },
   {
     "id": "group-6",
-    "description": "",
+    "description": "Methods of estimating the coefficients of multiple-regression models in scenarios where independent variables are highly correlated",
     "archived": false,
     "terms": [
       {
@@ -169,7 +169,7 @@
   },
   {
     "id": "group-7",
-    "description": "",
+    "description": "Concepts referring to the score of a given model with respect to a hypothetical location parameter",
     "archived": false,
     "terms": [
       {
@@ -188,7 +188,7 @@
   },
   {
     "id": "group-8",
-    "description": "",
+    "description": "Markov chain Monte Carlo method for obtaining a sequence of random samples which converge to being distributed according to a target probability distribution for which direct sampling is tough",
     "archived": false,
     "terms": [
       {
@@ -207,7 +207,7 @@
   },
   {
     "id": "group-9",
-    "description": "",
+    "description": "Markov chain Monte Carlo algorithm for obtaining a sequence of observations which are approximated from a specified multivariate probability distribution, when direct sampling is tough",
     "archived": false,
     "terms": [
       {
@@ -226,7 +226,7 @@
   },
   {
     "id": "group-10",
-    "description": "",
+    "description": "Physics concepts referring to a small localized object to which can be ascribed several properties such as volume, density or mass",
     "archived": false,
     "terms": [
       {
@@ -245,26 +245,26 @@
   },
   {
     "id": "group-11",
-    "description": "",
+    "description": "Physics concepts referring to the path that a particle with mass follows through space as a function of time",
     "archived": false,
     "terms": [
       {
         "id": "group-11-jargon-1",
-        "name": "path",
-        "regex": "[Pp]ath",
+        "name": "particle path",
+        "regex": "[Pp]article path",
         "archived": false
       },
       {
         "id": "group-11-jargon-2",
-        "name": "trajectory",
-        "regex": "[Tt]rajectory",
+        "name": "particle trajectory",
+        "regex": "[Pp]article trajectory",
         "archived": false
       }
     ]
   },
   {
     "id": "group-12",
-    "description": "",
+    "description": "Mathematical / Statistics measure of the distance between two probability distributions over a given metric space / region",
     "archived": false,
     "terms": [
       {
@@ -283,7 +283,7 @@
   },
   {
     "id": "group-13",
-    "description": "",
+    "description": "Concepts referring to the continuous probability distribution of the x-intercept of a ray issuing from (x0, y) with a uniformly distributed angle",
     "archived": false,
     "terms": [
       {
@@ -308,7 +308,7 @@
   },
   {
     "id": "group-14",
-    "description": "",
+    "description": "Information theory / Statistics measure for the good fit of a statistical model to a sample of data given values for the unknown parameters",
     "archived": false,
     "terms": [
       {
@@ -327,7 +327,7 @@
   },
   {
     "id": "group-15",
-    "description": "",
+    "description": "Machine learning / Statistics measure of the proportion of true positives that are correctly identified",
     "archived": false,
     "terms": [
       {
@@ -346,7 +346,7 @@
   },
   {
     "id": "group-16",
-    "description": "",
+    "description": "Statistics concepts referring to the discrete probability distribution that describes the possible results of a random variable taking one of the N possible categories, with each category probability separately specified",
     "archived": false,
     "terms": [
       {
@@ -371,7 +371,7 @@
   },
   {
     "id": "group-17",
-    "description": "",
+    "description": "Statistics concepts referring to the uncertainty coming from the unknowns that differ each time we run the same experiment",
     "archived": false,
     "terms": [
       {
@@ -390,7 +390,7 @@
   },
   {
     "id": "group-18",
-    "description": "",
+    "description": "Statistics concepts referring to the uncertainty coming from sources that one could in principle know, but in practice do not",
     "archived": false,
     "terms": [
       {
@@ -409,7 +409,7 @@
   },
   {
     "id": "group-19",
-    "description": "",
+    "description": "Interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structure and unstructured data, applying them to a wide range of domains",
     "archived": false,
     "terms": [
       {
@@ -420,8 +420,8 @@
       },
       {
         "id": "group-19-jargon-2",
-        "name": "statistics",
-        "regex": "[Ss]tatistics",
+        "name": "big data analytics",
+        "regex": "[Bb]ig [Dd]ata analytics",
         "archived": false
       }
     ]
@@ -465,7 +465,7 @@
   },
   {
     "id": "group-21",
-    "description": "",
+    "description": "Mathematical transformation used to convert a particle theory into its respective field theory by linearizing the density operator and introducing an auxiliary scalar field",
     "archived": false,
     "terms": [
       {
@@ -527,7 +527,7 @@
   },
   {
     "id": "group-23",
-    "description": "",
+    "description": "Statistics estimate computed from the observed data, referring to the range of values for an unknown parameter",
     "archived": false,
     "terms": [
       {
@@ -538,15 +538,15 @@
       },
       {
         "id": "group-23-jargon-2",
-        "name": "limit",
-        "regex": "[Ll]imit",
+        "name": "confidence level",
+        "regex": "[Cc]onfidence[- ]level",
         "archived": false
       }
     ]
   },
   {
     "id": "group-24",
-    "description": "",
+    "description": "Statistics / Physics concepts referring to the general technique for estimating properties of a particular distribution, while only having samples generated from a different distribution than the distribution of interest",
     "archived": false,
     "terms": [
       {
@@ -565,26 +565,26 @@
   },
   {
     "id": "group-25",
-    "description": "",
+    "description": "Machine learning individual measurable property or characteristic of a phenomenon being observed",
     "archived": false,
     "terms": [
       {
         "id": "group-25-jargon-1",
-        "name": "features",
-        "regex": "[Ff]eatures",
+        "name": "dataset features",
+        "regex": "[Dd]ataset[s]? feature",
         "archived": false
       },
       {
         "id": "group-25-jargon-2",
-        "name": "variables",
-        "regex": "[Vv]ariables",
+        "name": "dataset variables",
+        "regex": "[Dd]ataset[s]? variable",
         "archived": false
       }
     ]
   },
   {
     "id": "group-26",
-    "description": "",
+    "description": "Machine learning / Mathematics methods for efficiently computing the gradient of a function or operator in a numerical optimization problem",
     "archived": false,
     "terms": [
       {
@@ -615,7 +615,7 @@
   },
   {
     "id": "group-27",
-    "description": "",
+    "description": "Concepts referring to the neural networks using real-valued functions (those whose value depends only on the distance between the input and some fixed point)",
     "archived": false,
     "terms": [
       {
@@ -634,7 +634,7 @@
   },
   {
     "id": "group-28",
-    "description": "",
+    "description": "Bayesian Statistics concepts referring to the logarithmic of the probability distribution that would express one's beliefs about an uncertain quantity before some evidence is considered",
     "archived": false,
     "terms": [
       {
@@ -696,7 +696,7 @@
   },
   {
     "id": "group-30",
-    "description": "",
+    "description": "Mathematics process to decompose numerical values in order to reduce the complexity and influence of certain variables upon them",
     "archived": false,
     "terms": [
       {
