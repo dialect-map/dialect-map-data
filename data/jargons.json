@@ -446,61 +446,43 @@
     ]
   },
   {
-    "id": "group-22",
-    "description": "",
+    "id": "group-21",
+    "description": "Measurement for the accuracy of probabilistic predictions. It is applicable to tasks in which predictions must assign probabilities to a set of mutually exclusive outcomes or classes",
     "archived": false,
     "terms": [
       {
-        "id": "group-22-jargon-1",
-        "name": "diffeomorphism",
-        "regex": "[Dd]iffeomorphism",
+        "id": "group-21-jargon-1",
+        "name": "scoring rule",
+        "regex": "[Ss]coring rule",
         "archived": false
       },
       {
-        "id": "group-22-jargon-2",
-        "name": "function space view",
-        "regex": "[Ff]unction[- ]space view",
-        "archived": false
-      },
-      {
-        "id": "group-22-jargon-3",
-        "name": "implicit layer",
-        "regex": "[Ii]mplicit layer",
-        "archived": false
-      },
-      {
-        "id": "group-22-jargon-4",
-        "name": "kernel",
-        "regex": "[Kk]ernel",
-        "archived": false
-      },
-      {
-        "id": "group-22-jargon-5",
+        "id": "group-21-jargon-2",
         "name": "proper-scoring rule",
         "regex": "[Pp]roper[- ]scoring rule",
         "archived": false
       },
       {
-        "id": "group-22-jargon-6",
-        "name": "rank-1 perturbation",
-        "regex": "[Rr]ank[- ]1 perturbation",
+        "id": "group-21-jargon-3",
+        "name": "loss function",
+        "regex": "[Ll]oss function",
         "archived": false
       }
     ]
   },
   {
-    "id": "group-23",
+    "id": "group-22",
     "description": "Statistics estimate computed from the observed data, referring to the range of values for an unknown parameter",
     "archived": false,
     "terms": [
       {
-        "id": "group-23-jargon-1",
+        "id": "group-22-jargon-1",
         "name": "confidence interval",
         "regex": "[Cc]onfidence[- ]interval",
         "archived": false
       },
       {
-        "id": "group-23-jargon-2",
+        "id": "group-22-jargon-2",
         "name": "confidence level",
         "regex": "[Cc]onfidence[- ]level",
         "archived": false
@@ -508,18 +490,18 @@
     ]
   },
   {
-    "id": "group-24",
+    "id": "group-23",
     "description": "Statistics / Physics concepts referring to the general technique for estimating properties of a particular distribution, while only having samples generated from a different distribution than the distribution of interest",
     "archived": false,
     "terms": [
       {
-        "id": "group-24-jargon-1",
+        "id": "group-23-jargon-1",
         "name": "importance sampling",
         "regex": "[Ii]mportance sampling",
         "archived": false
       },
       {
-        "id": "group-24-jargon-2",
+        "id": "group-23-jargon-2",
         "name": "reweighing",
         "regex": "[Rr]eweighing",
         "archived": false
@@ -527,18 +509,18 @@
     ]
   },
   {
-    "id": "group-25",
+    "id": "group-24",
     "description": "Machine learning individual measurable property or characteristic of a phenomenon being observed",
     "archived": false,
     "terms": [
       {
-        "id": "group-25-jargon-1",
+        "id": "group-24-jargon-1",
         "name": "dataset features",
         "regex": "[Dd]ataset[s]? feature",
         "archived": false
       },
       {
-        "id": "group-25-jargon-2",
+        "id": "group-24-jargon-2",
         "name": "dataset variables",
         "regex": "[Dd]ataset[s]? variable",
         "archived": false
@@ -546,30 +528,30 @@
     ]
   },
   {
-    "id": "group-26",
+    "id": "group-25",
     "description": "Machine learning / Mathematics methods for efficiently computing the gradient of a function or operator in a numerical optimization problem",
     "archived": false,
     "terms": [
       {
-        "id": "group-26-jargon-1",
+        "id": "group-25-jargon-1",
         "name": "adjoint state method",
         "regex": "[Aa]djoint[[- ]state]? method",
         "archived": false
       },
       {
-        "id": "group-26-jargon-2",
+        "id": "group-25-jargon-2",
         "name": "back-propagation",
         "regex": "[Bb]ack[- ]?propagation",
         "archived": false
       },
       {
-        "id": "group-26-jargon-3",
+        "id": "group-25-jargon-3",
         "name": "kelley-bryson method",
         "regex": "[Kk]elley[- ][Bb]ryson method",
         "archived": false
       },
       {
-        "id": "group-26-jargon-4",
+        "id": "group-25-jargon-4",
         "name": "reverse mode automatic differentiation",
         "regex": "[Rr]everse[- ]mode automatic differentiation",
         "archived": false
@@ -577,18 +559,18 @@
     ]
   },
   {
-    "id": "group-27",
+    "id": "group-26",
     "description": "Concepts referring to the neural networks using real-valued functions (those whose value depends only on the distance between the input and some fixed point)",
     "archived": false,
     "terms": [
       {
-        "id": "group-27-jargon-1",
+        "id": "group-26-jargon-1",
         "name": "kernel-machine with gaussian kernel",
         "regex": "[Kk]ernel[- ]machine with [Gg]aussian kernel",
         "archived": false
       },
       {
-        "id": "group-27-jargon-2",
+        "id": "group-26-jargon-2",
         "name": "rbf network",
         "regex": "RBF network",
         "archived": false
@@ -596,18 +578,18 @@
     ]
   },
   {
-    "id": "group-28",
+    "id": "group-27",
     "description": "Bayesian Statistics concepts referring to the logarithmic of the probability distribution that would express one's beliefs about an uncertain quantity before some evidence is considered",
     "archived": false,
     "terms": [
       {
-        "id": "group-28-jargon-1",
+        "id": "group-27-jargon-1",
         "name": "log-prior",
         "regex": "[Ll]og[- ]prior",
         "archived": false
       },
       {
-        "id": "group-28-jargon-2",
+        "id": "group-27-jargon-2",
         "name": "regularizer",
         "regex": "[Rr]egularizer",
         "archived": false
@@ -615,18 +597,18 @@
     ]
   },
   {
-    "id": "group-30",
+    "id": "group-28",
     "description": "Mathematics process to decompose numerical values in order to reduce the complexity and influence of certain variables upon them",
     "archived": false,
     "terms": [
       {
-        "id": "group-30-jargon-1",
+        "id": "group-28-jargon-1",
         "name": "principal-component analysis",
         "regex": "[Pp]rincipal[- ][Cc]omponent analysis",
         "archived": false
       },
       {
-        "id": "group-30-jargon-2",
+        "id": "group-28-jargon-2",
         "name": "proper-orthogonal decomposition",
         "regex": "[Pp]roper[- ][Oo]rthogonal decomposition",
         "archived": false
