@@ -5,6 +5,14 @@ This piece of documentation explains how to contribute to the list of jargons av
 for comparison in the [Dialect map UI][dialect-map-ui].
 
 
+## Set up
+To be able to contribute to the project public datasets, collaborators would need to
+**fork this repository** into their personal accounts. Those _forks_ will be the ones
+being modified before proposing changes to the upstream copy of the datasets.
+
+To fork this repository, please click [this link][repo-fork-link].
+
+
 ## Operations
 These are all the operations that community contributors can perform.
 
@@ -28,8 +36,8 @@ _jargon terms_ that were ever defined. This preservation is **very useful** for 
 - It eases the automatic differentiation of JSON objects inside arrays (very hard otherwise).
 
 ### ✏️ Edit existing object
-Modification of existing objects is **not supported**. If you discover a relevant typo or something
-semantically incorrect in the definition of _jargon groups_, you should:
+Modification of existing objects is **not supported**. If a relevant typo, or something
+semantically incorrect in the definition of _jargon groups_ is discovered, please:
 
 1. Archive the invalid object.
 2. Define a new one with the error corrected.
@@ -42,4 +50,5 @@ will be propagated to the database. For more information, check the [computing d
 
 [dialect-map-ui]: https://github.com/dialect-map/dialect-map-ui
 [docs-compute]: compute.md
+[repo-fork-link]: https://github.com/dialect-map/dialect-map-data/fork
 [wiki-soft-delete]: https://en.wiktionary.org/wiki/soft_deletion
