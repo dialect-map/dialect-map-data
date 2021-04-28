@@ -28,6 +28,10 @@
     "name": "Solar and Stellar Astrophysics"
   },
   {
+    "id": "cond-mat",
+    "name": "Condensed Matter"
+  },
+  {
     "id": "cond-mat.dis-nn",
     "name": "Disordered Systems and Neural Networks"
   },
@@ -404,6 +408,10 @@
     "name": "Mathematical Physics"
   },
   {
+    "id": "nlin",
+    "name": "Nonlinear Sciences"
+  },
+  {
     "id": "nlin.AO",
     "name": "Adaptation and Self-Organizing Systems"
   },
@@ -518,6 +526,10 @@
   {
     "id": "physics.space-ph",
     "name": "Space Physics"
+  },
+  {
+    "id": "q-bio",
+    "name": "Quantitative Biology"
   },
   {
     "id": "q-bio.BM",
