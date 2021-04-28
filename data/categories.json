@@ -228,6 +228,14 @@
     "name": "Econometrics"
   },
   {
+    "id": "econ.GN",
+    "name": "General Econometrics"
+  },
+  {
+    "id": "econ.TH",
+    "name": "Theoretical Econometrics"
+  },
+  {
     "id": "eess.AS",
     "name": "Audio and Speech Processing"
   },
@@ -238,6 +246,10 @@
   {
     "id": "eess.SP",
     "name": "Signal Processing"
+  },
+  {
+    "id": "eess.SY",
+    "name": "Systems and Control"
   },
   {
     "id": "gr-qc",
