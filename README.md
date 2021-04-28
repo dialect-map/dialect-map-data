@@ -27,8 +27,10 @@ make validate
 ## Available data
 
 ### Categories
-The Arxiv categories have been extracted from the official [ArXiv API User Manual][arxiv-api-guide].
-Future updates will need to be propagated manually.
+The full corpus of ArXiv categories is formed by both **currently** and **legacy** used ones.
+
+- Current ones have been copied from the official [ArXiv category taxonomy][arxiv-guide-taxonomy].
+- Legacy ones have been inferred from the public [ArXiv metadata dataset][arxiv-public-metadata].
 
 ### Jargons
 
@@ -48,7 +50,8 @@ by the Dialect map team to ensure that the resulting JSON is well formatted.
 
 
 [ajv-cli-repository]: https://github.com/ajv-validator/ajv-cli
-[arxiv-api-guide]: https://arxiv.org/help/api/user-manual#53-subject-classifications
+[arxiv-guide-taxonomy]: https://arxiv.org/category_taxonomy
+[arxiv-public-metadata]: https://www.kaggle.com/Cornell-University/arxiv
 [dialect-map-ui]: https://github.com/dialect-map/dialect-map-ui
 [docs-contrib]: docs/contribute.md
 [docs-compute]: docs/compute.md
