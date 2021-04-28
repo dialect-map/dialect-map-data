@@ -1,5 +1,21 @@
 [
   {
+    "id": "acc-phys",
+    "name": "Accelerator Physics"
+  },
+  {
+    "id": "adap-org",
+    "name": "Adaptation and Self-Organizing Systems"
+  },
+  {
+    "id": "alg-geom",
+    "name": "Algebraic Geometry"
+  },
+  {
+    "id": "ao-sci",
+    "name": "Atmospheric and Oceanic Physics"
+  },
+  {
     "id": "astro-ph",
     "name": "Astrophysics"
   },
@@ -26,6 +42,30 @@
   {
     "id": "astro-ph.SR",
     "name": "Solar and Stellar Astrophysics"
+  },
+  {
+    "id": "atom-ph",
+    "name": "Atomic Physics"
+  },
+  {
+    "id": "bayes-an",
+    "name": "Bayesian Analysis"
+  },
+  {
+    "id": "chao-dyn",
+    "name": "Chaotic Dynamics"
+  },
+  {
+    "id": "chem-ph",
+    "name": "Chemical Physics"
+  },
+  {
+    "id": "cmp-lg",
+    "name": "Computation and Language"
+  },
+  {
+    "id": "comp-gas",
+    "name": "Cellular Automata and Lattice Gases"
   },
   {
     "id": "cond-mat",
@@ -228,6 +268,10 @@
     "name": "Systems and Control"
   },
   {
+    "id": "dg-ga",
+    "name": "Differential Geometry"
+  },
+  {
     "id": "econ.EM",
     "name": "Econometrics"
   },
@@ -254,6 +298,10 @@
   {
     "id": "eess.SY",
     "name": "Systems and Control"
+  },
+  {
+    "id": "funct-an",
+    "name": "Functional Analysis"
   },
   {
     "id": "gr-qc",
@@ -408,6 +456,10 @@
     "name": "Mathematical Physics"
   },
   {
+    "id": "mtrl-th",
+    "name": "Materials Theory"
+  },
+  {
     "id": "nlin",
     "name": "Nonlinear Sciences"
   },
@@ -438,6 +490,10 @@
   {
     "id": "nucl-th",
     "name": "Nuclear Theory"
+  },
+  {
+    "id": "patt-sol",
+    "name": "Pattern Formation and Solitons"
   },
   {
     "id": "physics.acc-ph",
@@ -528,6 +584,14 @@
     "name": "Space Physics"
   },
   {
+    "id": "plasm-ph",
+    "name": "Plasma Physics"
+  },
+  {
+    "id": "q-alg",
+    "name": "Quantum Algebra"
+  },
+  {
     "id": "q-bio",
     "name": "Quantitative Biology"
   },
@@ -612,6 +676,10 @@
     "name": "Quantum Physics"
   },
   {
+    "id": "solv-int",
+    "name": "Exactly Solvable and Integrable Systems"
+  },
+  {
     "id": "stat.AP",
     "name": "Applications"
   },
@@ -634,5 +702,9 @@
   {
     "id": "stat.TH",
     "name": "Statistics Theory"
+  },
+  {
+    "id": "supr-con",
+    "name": "Superconductivity"
   }
 ]
