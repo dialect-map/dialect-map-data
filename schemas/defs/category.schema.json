@@ -15,8 +15,12 @@
       "type": "string",
       "minLength": 0,
       "maxLength": 256
+    },
+    "archived": {
+      "description": "Whether the category has been archived or not (ArXiv legacy)",
+      "type": "boolean"
     }
   },
   "additionalProperties": false,
-  "required": ["id", "name"]
+  "required": ["id", "name", "archived"]
 }

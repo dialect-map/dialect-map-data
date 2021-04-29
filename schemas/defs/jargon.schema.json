@@ -22,7 +22,7 @@
       "type": "string"
     },
     "archived": {
-      "description": "Whether the group has been archived or not (soft delete)",
+      "description": "Whether the jargon has been archived or not (soft delete)",
       "type": "boolean"
     }
   },
