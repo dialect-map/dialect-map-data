@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "ajv-cli": "^4.0.1"
+    "ajv-cli": "^5.0.0"
   },
   "optionalDependencies": {
     "dm-diff": "git+ssh://git@github.com:dialect-map/dialect-map-data-diff.git#v0.2.3"

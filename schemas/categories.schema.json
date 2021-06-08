@@ -1,4 +1,5 @@
 {
+  "$id": "categories.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "CategoryList",
   "type": "array",
