@@ -6,7 +6,7 @@
     "terms": [
       {
         "id": "group-1-jargon-1",
-        "name": "kullback–leibler divergence",
+        "name": "kullback-leibler divergence",
         "regex": "[Kk]ullback[- ][Ll]eibler divergence",
         "archived": false
       },
@@ -212,7 +212,7 @@
     "terms": [
       {
         "id": "group-9-jargon-1",
-        "name": "Gibbs sampling",
+        "name": "gibbs sampling",
         "regex": "[Gg]ibbs sampling",
         "archived": false
       },
