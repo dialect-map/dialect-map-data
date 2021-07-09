@@ -3,7 +3,7 @@
     "id": "group-1",
     "description": "Mathematical statistics measure of how one probability distribution is different from a second, reference probability distribution",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-1-jargon-1",
         "name": "kullback-leibler divergence",
@@ -22,7 +22,7 @@
     "id": "group-2",
     "description": "Statistics concepts referring to the quantity optimized in Variational Bayesian methods",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-2-jargon-1",
         "name": "elbo",
@@ -47,7 +47,7 @@
     "id": "group-3",
     "description": "Statistics concepts referring to the variables that are not directly observed, but rather inferred from other observed variables",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-3-jargon-1",
         "name": "hidden variable",
@@ -78,7 +78,7 @@
     "id": "group-4",
     "description": "Phenomenon in the statistical analysis of scientific experiment where an apparently significant observation may have actually arisen by chance",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-4-jargon-1",
         "name": "look elsewhere effect",
@@ -103,7 +103,7 @@
     "id": "group-5",
     "description": "Concept referring to the artificial data that can be created using statistical methods",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-5-jargon-1",
         "name": "mock data",
@@ -140,7 +140,7 @@
     "id": "group-6",
     "description": "Methods of estimating the coefficients of multiple-regression models in scenarios where independent variables are highly correlated",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-6-jargon-1",
         "name": "gaussian process regression",
@@ -171,7 +171,7 @@
     "id": "group-7",
     "description": "Concepts referring to the score of a given model with respect to a hypothetical location parameter",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-7-jargon-1",
         "name": "gradient log-density",
@@ -190,7 +190,7 @@
     "id": "group-8",
     "description": "Markov chain Monte Carlo method for obtaining a sequence of random samples which converge to being distributed according to a target probability distribution for which direct sampling is tough",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-8-jargon-1",
         "name": "hamiltonian monte-carlo",
@@ -209,7 +209,7 @@
     "id": "group-9",
     "description": "Markov chain Monte Carlo algorithm for obtaining a sequence of observations which are approximated from a specified multivariate probability distribution, when direct sampling is tough",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-9-jargon-1",
         "name": "gibbs sampling",
@@ -228,7 +228,7 @@
     "id": "group-10",
     "description": "Physics concepts referring to a small localized object to which can be ascribed several properties such as volume, density or mass",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-10-jargon-1",
         "name": "particle",
@@ -247,7 +247,7 @@
     "id": "group-11",
     "description": "Physics concepts referring to the path that a particle with mass follows through space as a function of time",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-11-jargon-1",
         "name": "particle path",
@@ -266,7 +266,7 @@
     "id": "group-12",
     "description": "Mathematical / Statistics measure of the distance between two probability distributions over a given metric space / region",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-12-jargon-1",
         "name": "earth movers distance",
@@ -285,7 +285,7 @@
     "id": "group-13",
     "description": "Concepts referring to the continuous probability distribution of the x-intercept of a ray issuing from (x0, y) with a uniformly distributed angle",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-13-jargon-1",
         "name": "breit-widgner distribution",
@@ -310,7 +310,7 @@
     "id": "group-14",
     "description": "Information theory / Statistics measure for the good fit of a statistical model to a sample of data given values for the unknown parameters",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-14-jargon-1",
         "name": "cross entropy",
@@ -329,7 +329,7 @@
     "id": "group-15",
     "description": "Machine learning / Statistics measure of the proportion of true positives that are correctly identified",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-15-jargon-1",
         "name": "recall",
@@ -348,7 +348,7 @@
     "id": "group-16",
     "description": "Statistics concepts referring to the discrete probability distribution that describes the possible results of a random variable taking one of the N possible categories, with each category probability separately specified",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-16-jargon-1",
         "name": "categorical distribution",
@@ -373,7 +373,7 @@
     "id": "group-17",
     "description": "Statistics concepts referring to the uncertainty coming from the unknowns that differ each time we run the same experiment",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-17-jargon-1",
         "name": "aleatoric uncertainty",
@@ -392,7 +392,7 @@
     "id": "group-18",
     "description": "Statistics concepts referring to the uncertainty coming from sources that one could in principle know, but in practice do not",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-18-jargon-1",
         "name": "epistemic uncertainty",
@@ -411,7 +411,7 @@
     "id": "group-19",
     "description": "Interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structure and unstructured data, applying them to a wide range of domains",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-19-jargon-1",
         "name": "data science",
@@ -430,7 +430,7 @@
     "id": "group-20",
     "description": "Mathematical transformation used to convert a particle theory into its respective field theory by linearizing the density operator and introducing an auxiliary scalar field",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-20-jargon-1",
         "name": "hubbard-stratonovich transformation",
@@ -449,7 +449,7 @@
     "id": "group-21",
     "description": "Measurement for the accuracy of probabilistic predictions. It is applicable to tasks in which predictions must assign probabilities to a set of mutually exclusive outcomes or classes",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-21-jargon-1",
         "name": "scoring rule",
@@ -474,7 +474,7 @@
     "id": "group-22",
     "description": "Statistics estimate computed from the observed data, referring to the range of values for an unknown parameter",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-22-jargon-1",
         "name": "confidence interval",
@@ -493,7 +493,7 @@
     "id": "group-23",
     "description": "Statistics / Physics concepts referring to the general technique for estimating properties of a particular distribution, while only having samples generated from a different distribution than the distribution of interest",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-23-jargon-1",
         "name": "importance sampling",
@@ -512,7 +512,7 @@
     "id": "group-24",
     "description": "Machine learning individual measurable property or characteristic of a phenomenon being observed",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-24-jargon-1",
         "name": "dataset features",
@@ -531,7 +531,7 @@
     "id": "group-25",
     "description": "Machine learning / Mathematics methods for efficiently computing the gradient of a function or operator in a numerical optimization problem",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-25-jargon-1",
         "name": "adjoint state method",
@@ -562,7 +562,7 @@
     "id": "group-26",
     "description": "Concepts referring to the neural networks using real-valued functions (those whose value depends only on the distance between the input and some fixed point)",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-26-jargon-1",
         "name": "kernel-machine with gaussian kernel",
@@ -581,7 +581,7 @@
     "id": "group-27",
     "description": "Bayesian Statistics concepts referring to the logarithmic of the probability distribution that would express one's beliefs about an uncertain quantity before some evidence is considered",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-27-jargon-1",
         "name": "log-prior",
@@ -600,7 +600,7 @@
     "id": "group-28",
     "description": "Mathematics process to decompose numerical values in order to reduce the complexity and influence of certain variables upon them",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
         "id": "group-28-jargon-1",
         "name": "principal-component analysis",
