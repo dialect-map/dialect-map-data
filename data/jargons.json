@@ -5,12 +5,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-1",
         "jargon_id": "group-1-jargon-1",
         "jargon_term": "kullback-leibler divergence",
         "jargon_regex": "[Kk]ullback[- ][Ll]eibler divergence",
         "archived": false
       },
       {
+        "group_id": "group-1",
         "jargon_id": "group-1-jargon-2",
         "jargon_term": "relative entropy",
         "jargon_regex": "[Rr]elative entropy",
@@ -24,18 +26,21 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-2",
         "jargon_id": "group-2-jargon-1",
         "jargon_term": "elbo",
         "jargon_regex": "ELBO",
         "archived": false
       },
       {
+        "group_id": "group-2",
         "jargon_id": "group-2-jargon-2",
         "jargon_term": "evidence lower bound",
         "jargon_regex": "[Ee]vidence lower bound",
         "archived": false
       },
       {
+        "group_id": "group-2",
         "jargon_id": "group-2-jargon-3",
         "jargon_term": "variational free energy",
         "jargon_regex": "[Vv]ariational free energy",
@@ -49,24 +54,28 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-3",
         "jargon_id": "group-3-jargon-1",
         "jargon_term": "hidden variable",
         "jargon_regex": "[Hh]idden variable",
         "archived": false
       },
       {
+        "group_id": "group-3",
         "jargon_id": "group-3-jargon-2",
         "jargon_term": "latent variable",
         "jargon_regex": "[Ll]atent variable",
         "archived": false
       },
       {
+        "group_id": "group-3",
         "jargon_id": "group-3-jargon-3",
         "jargon_term": "monte-carlo truth",
         "jargon_regex": "[Mm]onte[- ][Cc]arlo truth",
         "archived": false
       },
       {
+        "group_id": "group-3",
         "jargon_id": "group-3-jargon-4",
         "jargon_term": "unobserved variable",
         "jargon_regex": "[Uu]nobserved variable",
@@ -80,18 +89,21 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-4",
         "jargon_id": "group-4-jargon-1",
         "jargon_term": "look elsewhere effect",
         "jargon_regex": "[Ll]ook elsewhere effect",
         "archived": false
       },
       {
+        "group_id": "group-4",
         "jargon_id": "group-4-jargon-2",
         "jargon_term": "multiple testing",
         "jargon_regex": "[Mm]ultiple testing",
         "archived": false
       },
       {
+        "group_id": "group-4",
         "jargon_id": "group-4-jargon-3",
         "jargon_term": "trials factor",
         "jargon_regex": "[Tt]rials factor",
@@ -105,30 +117,35 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-5",
         "jargon_id": "group-5-jargon-1",
         "jargon_term": "mock data",
         "jargon_regex": "[Mm]ock data",
         "archived": false
       },
       {
+        "group_id": "group-5",
         "jargon_id": "group-5-jargon-2",
         "jargon_term": "pseudo-data",
         "jargon_regex": "[Pp]seudo[- ]data",
         "archived": false
       },
       {
+        "group_id": "group-5",
         "jargon_id": "group-5-jargon-3",
         "jargon_term": "synthetic data",
         "jargon_regex": "[Ss]ynthetic data",
         "archived": false
       },
       {
+        "group_id": "group-5",
         "jargon_id": "group-5-jargon-4",
         "jargon_term": "toy monte carlo",
         "jargon_regex": "[Tt]oy [Mm]onte[- ][Cc]arlo",
         "archived": false
       },
       {
+        "group_id": "group-5",
         "jargon_id": "group-5-jargon-5",
         "jargon_term": "toymc",
         "jargon_regex": "[Tt]oy[Mm][Cc]",
@@ -142,24 +159,28 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-6",
         "jargon_id": "group-6-jargon-1",
         "jargon_term": "gaussian process regression",
         "jargon_regex": "[Gg]aussian process regression",
         "archived": false
       },
       {
+        "group_id": "group-6",
         "jargon_id": "group-6-jargon-2",
         "jargon_term": "kernel ridge regression",
         "jargon_regex": "[Kk]ernel ridge regression",
         "archived": false
       },
       {
+        "group_id": "group-6",
         "jargon_id": "group-6-jargon-3",
         "jargon_term": "kriging",
         "jargon_regex": "[Kk]riging",
         "archived": false
       },
       {
+        "group_id": "group-6",
         "jargon_id": "group-6-jargon-4",
         "jargon_term": "ridge regression",
         "jargon_regex": "[Rr]idge regression",
@@ -173,12 +194,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-7",
         "jargon_id": "group-7-jargon-1",
         "jargon_term": "gradient log-density",
         "jargon_regex": "[Gg]radient log[- ]density",
         "archived": false
       },
       {
+        "group_id": "group-7",
         "jargon_id": "group-7-jargon-2",
         "jargon_term": "score function",
         "jargon_regex": "[Ss]core function",
@@ -192,12 +215,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-8",
         "jargon_id": "group-8-jargon-1",
         "jargon_term": "hamiltonian monte-carlo",
         "jargon_regex": "[Hh]amiltonian [Mm]onte[- ][Cc]arlo",
         "archived": false
       },
       {
+        "group_id": "group-8",
         "jargon_id": "group-8-jargon-2",
         "jargon_term": "hybrid monte-carlo",
         "jargon_regex": "[Hh]ybrid [Mm]onte[- ][Cc]arlo",
@@ -211,12 +236,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-9",
         "jargon_id": "group-9-jargon-1",
         "jargon_term": "gibbs sampling",
         "jargon_regex": "[Gg]ibbs sampling",
         "archived": false
       },
       {
+        "group_id": "group-9",
         "jargon_id": "group-9-jargon-2",
         "jargon_term": "heat-bath",
         "jargon_regex": "[Hh]eat[- ]?[Bb]ath",
@@ -230,12 +257,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-10",
         "jargon_id": "group-10-jargon-1",
         "jargon_term": "particle",
         "jargon_regex": "[Pp]article",
         "archived": false
       },
       {
+        "group_id": "group-10",
         "jargon_id": "group-10-jargon-2",
         "jargon_term": "sample",
         "jargon_regex": "[Ss]ample",
@@ -249,12 +278,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-11",
         "jargon_id": "group-11-jargon-1",
         "jargon_term": "particle path",
         "jargon_regex": "[Pp]article path",
         "archived": false
       },
       {
+        "group_id": "group-11",
         "jargon_id": "group-11-jargon-2",
         "jargon_term": "particle trajectory",
         "jargon_regex": "[Pp]article trajectory",
@@ -268,12 +299,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-12",
         "jargon_id": "group-12-jargon-1",
         "jargon_term": "earth movers distance",
         "jargon_regex": "[Ee]arth[- ]movers distance",
         "archived": false
       },
       {
+        "group_id": "group-12",
         "jargon_id": "group-12-jargon-2",
         "jargon_term": "wasserstein distance",
         "jargon_regex": "[Ww]asserstein distance",
@@ -287,18 +320,21 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-13",
         "jargon_id": "group-13-jargon-1",
         "jargon_term": "breit-widgner distribution",
         "jargon_regex": "[Bb]reit[- ][Ww]idgner distribution",
         "archived": false
       },
       {
+        "group_id": "group-13",
         "jargon_id": "group-13-jargon-2",
         "jargon_term": "cauchy distribution",
         "jargon_regex": "[Cc]auchy distribution",
         "archived": false
       },
       {
+        "group_id": "group-13",
         "jargon_id": "group-13-jargon-3",
         "jargon_term": "lorentz distribution",
         "jargon_regex": "[Ll]orentz distribution",
@@ -312,12 +348,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-14",
         "jargon_id": "group-14-jargon-1",
         "jargon_term": "cross entropy",
         "jargon_regex": "[Cc]ross entropy",
         "archived": false
       },
       {
+        "group_id": "group-14",
         "jargon_id": "group-14-jargon-2",
         "jargon_term": "log likelihood",
         "jargon_regex": "[Ll]og[- ][Ll]ikelihood",
@@ -331,12 +369,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-15",
         "jargon_id": "group-15-jargon-1",
         "jargon_term": "recall",
         "jargon_regex": "[Rr]ecall",
         "archived": false
       },
       {
+        "group_id": "group-15",
         "jargon_id": "group-15-jargon-2",
         "jargon_term": "sensitivity",
         "jargon_regex": "[Ss]ensitivity",
@@ -350,18 +390,21 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-16",
         "jargon_id": "group-16-jargon-1",
         "jargon_term": "categorical distribution",
         "jargon_regex": "[Cc]ategorical distribution",
         "archived": false
       },
       {
+        "group_id": "group-16",
         "jargon_id": "group-16-jargon-2",
         "jargon_term": "multinomial distribution",
         "jargon_regex": "[Mm]ultinomial distribution",
         "archived": false
       },
       {
+        "group_id": "group-16",
         "jargon_id": "group-16-jargon-3",
         "jargon_term": "multinoulli distribution",
         "jargon_regex": "[Mm]ultinoulli distribution",
@@ -375,12 +418,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-17",
         "jargon_id": "group-17-jargon-1",
         "jargon_term": "aleatoric uncertainty",
         "jargon_regex": "[Aa]leatoric[- ]uncertainty",
         "archived": false
       },
       {
+        "group_id": "group-17",
         "jargon_id": "group-17-jargon-2",
         "jargon_term": "statistical uncertainty",
         "jargon_regex": "[Ss]tatistical[- ]uncertainty",
@@ -394,12 +439,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-18",
         "jargon_id": "group-18-jargon-1",
         "jargon_term": "epistemic uncertainty",
         "jargon_regex": "[Ee]pistemic[- ]uncertainty",
         "archived": false
       },
       {
+        "group_id": "group-18",
         "jargon_id": "group-18-jargon-2",
         "jargon_term": "systematic uncertainty",
         "jargon_regex": "[Ss]ystematic[- ]uncertainty",
@@ -413,12 +460,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-19",
         "jargon_id": "group-19-jargon-1",
         "jargon_term": "data science",
         "jargon_regex": "[Dd]ata [Ss]cience",
         "archived": false
       },
       {
+        "group_id": "group-19",
         "jargon_id": "group-19-jargon-2",
         "jargon_term": "big data analytics",
         "jargon_regex": "[Bb]ig [Dd]ata analytics",
@@ -432,12 +481,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-20",
         "jargon_id": "group-20-jargon-1",
         "jargon_term": "hubbard-stratonovich transformation",
         "jargon_regex": "[Hh]ubbard[- ][Ss]tratonovich transformation",
         "archived": false
       },
       {
+        "group_id": "group-20",
         "jargon_id": "group-20-jargon-2",
         "jargon_term": "auxiliary field",
         "jargon_regex": "[Aa]uxiliary field",
@@ -451,18 +502,21 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-21",
         "jargon_id": "group-21-jargon-1",
         "jargon_term": "scoring rule",
         "jargon_regex": "[Ss]coring rule",
         "archived": false
       },
       {
+        "group_id": "group-21",
         "jargon_id": "group-21-jargon-2",
         "jargon_term": "proper-scoring rule",
         "jargon_regex": "[Pp]roper[- ]scoring rule",
         "archived": false
       },
       {
+        "group_id": "group-21",
         "jargon_id": "group-21-jargon-3",
         "jargon_term": "loss function",
         "jargon_regex": "[Ll]oss function",
@@ -476,12 +530,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-22",
         "jargon_id": "group-22-jargon-1",
         "jargon_term": "confidence interval",
         "jargon_regex": "[Cc]onfidence[- ]interval",
         "archived": false
       },
       {
+        "group_id": "group-22",
         "jargon_id": "group-22-jargon-2",
         "jargon_term": "confidence level",
         "jargon_regex": "[Cc]onfidence[- ]level",
@@ -495,12 +551,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-23",
         "jargon_id": "group-23-jargon-1",
         "jargon_term": "importance sampling",
         "jargon_regex": "[Ii]mportance sampling",
         "archived": false
       },
       {
+        "group_id": "group-23",
         "jargon_id": "group-23-jargon-2",
         "jargon_term": "reweighing",
         "jargon_regex": "[Rr]eweighing",
@@ -514,12 +572,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-24",
         "jargon_id": "group-24-jargon-1",
         "jargon_term": "dataset features",
         "jargon_regex": "[Dd]ataset[s]? feature",
         "archived": false
       },
       {
+        "group_id": "group-24",
         "jargon_id": "group-24-jargon-2",
         "jargon_term": "dataset variables",
         "jargon_regex": "[Dd]ataset[s]? variable",
@@ -533,24 +593,28 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-25",
         "jargon_id": "group-25-jargon-1",
         "jargon_term": "adjoint state method",
         "jargon_regex": "[Aa]djoint[[- ]state]? method",
         "archived": false
       },
       {
+        "group_id": "group-25",
         "jargon_id": "group-25-jargon-2",
         "jargon_term": "back-propagation",
         "jargon_regex": "[Bb]ack[- ]?propagation",
         "archived": false
       },
       {
+        "group_id": "group-25",
         "jargon_id": "group-25-jargon-3",
         "jargon_term": "kelley-bryson method",
         "jargon_regex": "[Kk]elley[- ][Bb]ryson method",
         "archived": false
       },
       {
+        "group_id": "group-25",
         "jargon_id": "group-25-jargon-4",
         "jargon_term": "reverse mode automatic differentiation",
         "jargon_regex": "[Rr]everse[- ]mode automatic differentiation",
@@ -564,12 +628,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-26",
         "jargon_id": "group-26-jargon-1",
         "jargon_term": "kernel-machine with gaussian kernel",
         "jargon_regex": "[Kk]ernel[- ]machine with [Gg]aussian kernel",
         "archived": false
       },
       {
+        "group_id": "group-26",
         "jargon_id": "group-26-jargon-2",
         "jargon_term": "rbf network",
         "jargon_regex": "RBF network",
@@ -583,12 +649,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-27",
         "jargon_id": "group-27-jargon-1",
         "jargon_term": "log-prior",
         "jargon_regex": "[Ll]og[- ]prior",
         "archived": false
       },
       {
+        "group_id": "group-27",
         "jargon_id": "group-27-jargon-2",
         "jargon_term": "regularizer",
         "jargon_regex": "[Rr]egularizer",
@@ -602,12 +670,14 @@
     "archived": false,
     "jargons": [
       {
+        "group_id": "group-28",
         "jargon_id": "group-28-jargon-1",
         "jargon_term": "principal-component analysis",
         "jargon_regex": "[Pp]rincipal[- ][Cc]omponent analysis",
         "archived": false
       },
       {
+        "group_id": "group-28",
         "jargon_id": "group-28-jargon-2",
         "jargon_term": "proper-orthogonal decomposition",
         "jargon_regex": "[Pp]roper[- ][Oo]rthogonal decomposition",
