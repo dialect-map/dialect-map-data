@@ -4,21 +4,21 @@
   "title": "Jargon",
   "type": "object",
   "properties": {
-    "id": {
+    "jargon_id": {
       "description": "The jargon ID",
       "type": "string",
       "minLength": 2,
       "maxLength": 32,
       "pattern": "^group-\\d+-jargon-\\d+$"
     },
-    "name": {
-      "description": "The lower case name of the jargon term",
+    "jargon_term": {
+      "description": "The jargon term in lower case",
       "type": "string",
       "minLength": 2,
       "maxLength": 64,
       "pattern": "^[a-z \\-]+$"
     },
-    "regex": {
+    "jargon_regex": {
       "description": "The jargon term regex to consider every similar expression together",
       "type": "string"
     },
@@ -28,5 +28,5 @@
     }
   },
   "additionalProperties": false,
-  "required": ["id", "name", "regex", "archived"]
+  "required": ["jargon_id", "jargon_term", "jargon_regex", "archived"]
 }
