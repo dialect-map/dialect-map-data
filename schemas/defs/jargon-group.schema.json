@@ -12,7 +12,7 @@
       "pattern": "^group-\\d+$"
     },
     "description": {
-      "description": "The concept all the contained jargon terms refers to",
+      "description": "The concept all the contained jargons refers to",
       "type": "string",
       "minLength": 0,
       "maxLength": 256
@@ -21,8 +21,8 @@
       "description": "Whether the group has been archived or not (soft delete)",
       "type": "boolean"
     },
-    "terms": {
-      "description": "The list of jargon terms contained in the group",
+    "jargons": {
+      "description": "The list of jargons contained in the group",
       "type": "array",
       "minItems": 2,
       "maxItems": 256,
@@ -33,5 +33,5 @@
     }
   },
   "additionalProperties": false,
-  "required": ["id", "description", "archived", "terms"]
+  "required": ["id", "description", "archived", "jargons"]
 }
