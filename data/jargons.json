@@ -3,17 +3,19 @@
     "id": "group-1",
     "description": "Mathematical statistics measure of how one probability distribution is different from a second, reference probability distribution",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-1-jargon-1",
-        "name": "kullback–leibler divergence",
-        "regex": "[Kk]ullback[- ][Ll]eibler divergence",
+        "group_id": "group-1",
+        "jargon_id": "group-1-jargon-1",
+        "jargon_term": "kullback-leibler divergence",
+        "jargon_regex": "[Kk]ullback[- ][Ll]eibler divergence",
         "archived": false
       },
       {
-        "id": "group-1-jargon-2",
-        "name": "relative entropy",
-        "regex": "[Rr]elative entropy",
+        "group_id": "group-1",
+        "jargon_id": "group-1-jargon-2",
+        "jargon_term": "relative entropy",
+        "jargon_regex": "[Rr]elative entropy",
         "archived": false
       }
     ]
@@ -22,23 +24,26 @@
     "id": "group-2",
     "description": "Statistics concepts referring to the quantity optimized in Variational Bayesian methods",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-2-jargon-1",
-        "name": "elbo",
-        "regex": "ELBO",
+        "group_id": "group-2",
+        "jargon_id": "group-2-jargon-1",
+        "jargon_term": "elbo",
+        "jargon_regex": "ELBO",
         "archived": false
       },
       {
-        "id": "group-2-jargon-2",
-        "name": "evidence lower bound",
-        "regex": "[Ee]vidence lower bound",
+        "group_id": "group-2",
+        "jargon_id": "group-2-jargon-2",
+        "jargon_term": "evidence lower bound",
+        "jargon_regex": "[Ee]vidence lower bound",
         "archived": false
       },
       {
-        "id": "group-2-jargon-3",
-        "name": "variational free energy",
-        "regex": "[Vv]ariational free energy",
+        "group_id": "group-2",
+        "jargon_id": "group-2-jargon-3",
+        "jargon_term": "variational free energy",
+        "jargon_regex": "[Vv]ariational free energy",
         "archived": false
       }
     ]
@@ -47,29 +52,33 @@
     "id": "group-3",
     "description": "Statistics concepts referring to the variables that are not directly observed, but rather inferred from other observed variables",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-3-jargon-1",
-        "name": "hidden variable",
-        "regex": "[Hh]idden variable",
+        "group_id": "group-3",
+        "jargon_id": "group-3-jargon-1",
+        "jargon_term": "hidden variable",
+        "jargon_regex": "[Hh]idden variable",
         "archived": false
       },
       {
-        "id": "group-3-jargon-2",
-        "name": "latent variable",
-        "regex": "[Ll]atent variable",
+        "group_id": "group-3",
+        "jargon_id": "group-3-jargon-2",
+        "jargon_term": "latent variable",
+        "jargon_regex": "[Ll]atent variable",
         "archived": false
       },
       {
-        "id": "group-3-jargon-3",
-        "name": "monte-carlo truth",
-        "regex": "[Mm]onte[- ][Cc]arlo truth",
+        "group_id": "group-3",
+        "jargon_id": "group-3-jargon-3",
+        "jargon_term": "monte-carlo truth",
+        "jargon_regex": "[Mm]onte[- ][Cc]arlo truth",
         "archived": false
       },
       {
-        "id": "group-3-jargon-4",
-        "name": "unobserved variable",
-        "regex": "[Uu]nobserved variable",
+        "group_id": "group-3",
+        "jargon_id": "group-3-jargon-4",
+        "jargon_term": "unobserved variable",
+        "jargon_regex": "[Uu]nobserved variable",
         "archived": false
       }
     ]
@@ -78,23 +87,26 @@
     "id": "group-4",
     "description": "Phenomenon in the statistical analysis of scientific experiment where an apparently significant observation may have actually arisen by chance",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-4-jargon-1",
-        "name": "look elsewhere effect",
-        "regex": "[Ll]ook elsewhere effect",
+        "group_id": "group-4",
+        "jargon_id": "group-4-jargon-1",
+        "jargon_term": "look elsewhere effect",
+        "jargon_regex": "[Ll]ook elsewhere effect",
         "archived": false
       },
       {
-        "id": "group-4-jargon-2",
-        "name": "multiple testing",
-        "regex": "[Mm]ultiple testing",
+        "group_id": "group-4",
+        "jargon_id": "group-4-jargon-2",
+        "jargon_term": "multiple testing",
+        "jargon_regex": "[Mm]ultiple testing",
         "archived": false
       },
       {
-        "id": "group-4-jargon-3",
-        "name": "trials factor",
-        "regex": "[Tt]rials factor",
+        "group_id": "group-4",
+        "jargon_id": "group-4-jargon-3",
+        "jargon_term": "trials factor",
+        "jargon_regex": "[Tt]rials factor",
         "archived": false
       }
     ]
@@ -103,35 +115,40 @@
     "id": "group-5",
     "description": "Concept referring to the artificial data that can be created using statistical methods",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-5-jargon-1",
-        "name": "mock data",
-        "regex": "[Mm]ock data",
+        "group_id": "group-5",
+        "jargon_id": "group-5-jargon-1",
+        "jargon_term": "mock data",
+        "jargon_regex": "[Mm]ock data",
         "archived": false
       },
       {
-        "id": "group-5-jargon-2",
-        "name": "pseudo-data",
-        "regex": "[Pp]seudo[- ]data",
+        "group_id": "group-5",
+        "jargon_id": "group-5-jargon-2",
+        "jargon_term": "pseudo-data",
+        "jargon_regex": "[Pp]seudo[- ]data",
         "archived": false
       },
       {
-        "id": "group-5-jargon-3",
-        "name": "synthetic data",
-        "regex": "[Ss]ynthetic data",
+        "group_id": "group-5",
+        "jargon_id": "group-5-jargon-3",
+        "jargon_term": "synthetic data",
+        "jargon_regex": "[Ss]ynthetic data",
         "archived": false
       },
       {
-        "id": "group-5-jargon-4",
-        "name": "toy monte carlo",
-        "regex": "[Tt]oy [Mm]onte[- ][Cc]arlo",
+        "group_id": "group-5",
+        "jargon_id": "group-5-jargon-4",
+        "jargon_term": "toy monte carlo",
+        "jargon_regex": "[Tt]oy [Mm]onte[- ][Cc]arlo",
         "archived": false
       },
       {
-        "id": "group-5-jargon-5",
-        "name": "toymc",
-        "regex": "[Tt]oy[Mm][Cc]",
+        "group_id": "group-5",
+        "jargon_id": "group-5-jargon-5",
+        "jargon_term": "toymc",
+        "jargon_regex": "[Tt]oy[Mm][Cc]",
         "archived": false
       }
     ]
@@ -140,29 +157,33 @@
     "id": "group-6",
     "description": "Methods of estimating the coefficients of multiple-regression models in scenarios where independent variables are highly correlated",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-6-jargon-1",
-        "name": "gaussian process regression",
-        "regex": "[Gg]aussian process regression",
+        "group_id": "group-6",
+        "jargon_id": "group-6-jargon-1",
+        "jargon_term": "gaussian process regression",
+        "jargon_regex": "[Gg]aussian process regression",
         "archived": false
       },
       {
-        "id": "group-6-jargon-2",
-        "name": "kernel ridge regression",
-        "regex": "[Kk]ernel ridge regression",
+        "group_id": "group-6",
+        "jargon_id": "group-6-jargon-2",
+        "jargon_term": "kernel ridge regression",
+        "jargon_regex": "[Kk]ernel ridge regression",
         "archived": false
       },
       {
-        "id": "group-6-jargon-3",
-        "name": "kriging",
-        "regex": "[Kk]riging",
+        "group_id": "group-6",
+        "jargon_id": "group-6-jargon-3",
+        "jargon_term": "kriging",
+        "jargon_regex": "[Kk]riging",
         "archived": false
       },
       {
-        "id": "group-6-jargon-4",
-        "name": "ridge regression",
-        "regex": "[Rr]idge regression",
+        "group_id": "group-6",
+        "jargon_id": "group-6-jargon-4",
+        "jargon_term": "ridge regression",
+        "jargon_regex": "[Rr]idge regression",
         "archived": false
       }
     ]
@@ -171,17 +192,19 @@
     "id": "group-7",
     "description": "Concepts referring to the score of a given model with respect to a hypothetical location parameter",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-7-jargon-1",
-        "name": "gradient log-density",
-        "regex": "[Gg]radient log[- ]density",
+        "group_id": "group-7",
+        "jargon_id": "group-7-jargon-1",
+        "jargon_term": "gradient log-density",
+        "jargon_regex": "[Gg]radient log[- ]density",
         "archived": false
       },
       {
-        "id": "group-7-jargon-2",
-        "name": "score function",
-        "regex": "[Ss]core function",
+        "group_id": "group-7",
+        "jargon_id": "group-7-jargon-2",
+        "jargon_term": "score function",
+        "jargon_regex": "[Ss]core function",
         "archived": false
       }
     ]
@@ -190,17 +213,19 @@
     "id": "group-8",
     "description": "Markov chain Monte Carlo method for obtaining a sequence of random samples which converge to being distributed according to a target probability distribution for which direct sampling is tough",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-8-jargon-1",
-        "name": "hamiltonian monte-carlo",
-        "regex": "[Hh]amiltonian [Mm]onte[- ][Cc]arlo",
+        "group_id": "group-8",
+        "jargon_id": "group-8-jargon-1",
+        "jargon_term": "hamiltonian monte-carlo",
+        "jargon_regex": "[Hh]amiltonian [Mm]onte[- ][Cc]arlo",
         "archived": false
       },
       {
-        "id": "group-8-jargon-2",
-        "name": "hybrid monte-carlo",
-        "regex": "[Hh]ybrid [Mm]onte[- ][Cc]arlo",
+        "group_id": "group-8",
+        "jargon_id": "group-8-jargon-2",
+        "jargon_term": "hybrid monte-carlo",
+        "jargon_regex": "[Hh]ybrid [Mm]onte[- ][Cc]arlo",
         "archived": false
       }
     ]
@@ -209,17 +234,19 @@
     "id": "group-9",
     "description": "Markov chain Monte Carlo algorithm for obtaining a sequence of observations which are approximated from a specified multivariate probability distribution, when direct sampling is tough",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-9-jargon-1",
-        "name": "Gibbs sampling",
-        "regex": "[Gg]ibbs sampling",
+        "group_id": "group-9",
+        "jargon_id": "group-9-jargon-1",
+        "jargon_term": "gibbs sampling",
+        "jargon_regex": "[Gg]ibbs sampling",
         "archived": false
       },
       {
-        "id": "group-9-jargon-2",
-        "name": "heat-bath",
-        "regex": "[Hh]eat[- ]?[Bb]ath",
+        "group_id": "group-9",
+        "jargon_id": "group-9-jargon-2",
+        "jargon_term": "heat-bath",
+        "jargon_regex": "[Hh]eat[- ]?[Bb]ath",
         "archived": false
       }
     ]
@@ -228,17 +255,19 @@
     "id": "group-10",
     "description": "Physics concepts referring to a small localized object to which can be ascribed several properties such as volume, density or mass",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-10-jargon-1",
-        "name": "particle",
-        "regex": "[Pp]article",
+        "group_id": "group-10",
+        "jargon_id": "group-10-jargon-1",
+        "jargon_term": "particle",
+        "jargon_regex": "[Pp]article",
         "archived": false
       },
       {
-        "id": "group-10-jargon-2",
-        "name": "sample",
-        "regex": "[Ss]ample",
+        "group_id": "group-10",
+        "jargon_id": "group-10-jargon-2",
+        "jargon_term": "sample",
+        "jargon_regex": "[Ss]ample",
         "archived": false
       }
     ]
@@ -247,17 +276,19 @@
     "id": "group-11",
     "description": "Physics concepts referring to the path that a particle with mass follows through space as a function of time",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-11-jargon-1",
-        "name": "particle path",
-        "regex": "[Pp]article path",
+        "group_id": "group-11",
+        "jargon_id": "group-11-jargon-1",
+        "jargon_term": "particle path",
+        "jargon_regex": "[Pp]article path",
         "archived": false
       },
       {
-        "id": "group-11-jargon-2",
-        "name": "particle trajectory",
-        "regex": "[Pp]article trajectory",
+        "group_id": "group-11",
+        "jargon_id": "group-11-jargon-2",
+        "jargon_term": "particle trajectory",
+        "jargon_regex": "[Pp]article trajectory",
         "archived": false
       }
     ]
@@ -266,17 +297,19 @@
     "id": "group-12",
     "description": "Mathematical / Statistics measure of the distance between two probability distributions over a given metric space / region",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-12-jargon-1",
-        "name": "earth movers distance",
-        "regex": "[Ee]arth[- ]movers distance",
+        "group_id": "group-12",
+        "jargon_id": "group-12-jargon-1",
+        "jargon_term": "earth movers distance",
+        "jargon_regex": "[Ee]arth[- ]movers distance",
         "archived": false
       },
       {
-        "id": "group-12-jargon-2",
-        "name": "wasserstein distance",
-        "regex": "[Ww]asserstein distance",
+        "group_id": "group-12",
+        "jargon_id": "group-12-jargon-2",
+        "jargon_term": "wasserstein distance",
+        "jargon_regex": "[Ww]asserstein distance",
         "archived": false
       }
     ]
@@ -285,23 +318,26 @@
     "id": "group-13",
     "description": "Concepts referring to the continuous probability distribution of the x-intercept of a ray issuing from (x0, y) with a uniformly distributed angle",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-13-jargon-1",
-        "name": "breit-widgner distribution",
-        "regex": "[Bb]reit[- ][Ww]idgner distribution",
+        "group_id": "group-13",
+        "jargon_id": "group-13-jargon-1",
+        "jargon_term": "breit-widgner distribution",
+        "jargon_regex": "[Bb]reit[- ][Ww]idgner distribution",
         "archived": false
       },
       {
-        "id": "group-13-jargon-2",
-        "name": "cauchy distribution",
-        "regex": "[Cc]auchy distribution",
+        "group_id": "group-13",
+        "jargon_id": "group-13-jargon-2",
+        "jargon_term": "cauchy distribution",
+        "jargon_regex": "[Cc]auchy distribution",
         "archived": false
       },
       {
-        "id": "group-13-jargon-3",
-        "name": "lorentz distribution",
-        "regex": "[Ll]orentz distribution",
+        "group_id": "group-13",
+        "jargon_id": "group-13-jargon-3",
+        "jargon_term": "lorentz distribution",
+        "jargon_regex": "[Ll]orentz distribution",
         "archived": false
       }
     ]
@@ -310,17 +346,19 @@
     "id": "group-14",
     "description": "Information theory / Statistics measure for the good fit of a statistical model to a sample of data given values for the unknown parameters",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-14-jargon-1",
-        "name": "cross entropy",
-        "regex": "[Cc]ross entropy",
+        "group_id": "group-14",
+        "jargon_id": "group-14-jargon-1",
+        "jargon_term": "cross entropy",
+        "jargon_regex": "[Cc]ross entropy",
         "archived": false
       },
       {
-        "id": "group-14-jargon-2",
-        "name": "log likelihood",
-        "regex": "[Ll]og[- ][Ll]ikelihood",
+        "group_id": "group-14",
+        "jargon_id": "group-14-jargon-2",
+        "jargon_term": "log likelihood",
+        "jargon_regex": "[Ll]og[- ][Ll]ikelihood",
         "archived": false
       }
     ]
@@ -329,17 +367,19 @@
     "id": "group-15",
     "description": "Machine learning / Statistics measure of the proportion of true positives that are correctly identified",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-15-jargon-1",
-        "name": "recall",
-        "regex": "[Rr]ecall",
+        "group_id": "group-15",
+        "jargon_id": "group-15-jargon-1",
+        "jargon_term": "recall",
+        "jargon_regex": "[Rr]ecall",
         "archived": false
       },
       {
-        "id": "group-15-jargon-2",
-        "name": "sensitivity",
-        "regex": "[Ss]ensitivity",
+        "group_id": "group-15",
+        "jargon_id": "group-15-jargon-2",
+        "jargon_term": "sensitivity",
+        "jargon_regex": "[Ss]ensitivity",
         "archived": false
       }
     ]
@@ -348,23 +388,26 @@
     "id": "group-16",
     "description": "Statistics concepts referring to the discrete probability distribution that describes the possible results of a random variable taking one of the N possible categories, with each category probability separately specified",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-16-jargon-1",
-        "name": "categorical distribution",
-        "regex": "[Cc]ategorical distribution",
+        "group_id": "group-16",
+        "jargon_id": "group-16-jargon-1",
+        "jargon_term": "categorical distribution",
+        "jargon_regex": "[Cc]ategorical distribution",
         "archived": false
       },
       {
-        "id": "group-16-jargon-2",
-        "name": "multinomial distribution",
-        "regex": "[Mm]ultinomial distribution",
+        "group_id": "group-16",
+        "jargon_id": "group-16-jargon-2",
+        "jargon_term": "multinomial distribution",
+        "jargon_regex": "[Mm]ultinomial distribution",
         "archived": false
       },
       {
-        "id": "group-16-jargon-3",
-        "name": "multinoulli distribution",
-        "regex": "[Mm]ultinoulli distribution",
+        "group_id": "group-16",
+        "jargon_id": "group-16-jargon-3",
+        "jargon_term": "multinoulli distribution",
+        "jargon_regex": "[Mm]ultinoulli distribution",
         "archived": false
       }
     ]
@@ -373,17 +416,19 @@
     "id": "group-17",
     "description": "Statistics concepts referring to the uncertainty coming from the unknowns that differ each time we run the same experiment",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-17-jargon-1",
-        "name": "aleatoric uncertainty",
-        "regex": "[Aa]leatoric[- ]uncertainty",
+        "group_id": "group-17",
+        "jargon_id": "group-17-jargon-1",
+        "jargon_term": "aleatoric uncertainty",
+        "jargon_regex": "[Aa]leatoric[- ]uncertainty",
         "archived": false
       },
       {
-        "id": "group-17-jargon-2",
-        "name": "statistical uncertainty",
-        "regex": "[Ss]tatistical[- ]uncertainty",
+        "group_id": "group-17",
+        "jargon_id": "group-17-jargon-2",
+        "jargon_term": "statistical uncertainty",
+        "jargon_regex": "[Ss]tatistical[- ]uncertainty",
         "archived": false
       }
     ]
@@ -392,17 +437,19 @@
     "id": "group-18",
     "description": "Statistics concepts referring to the uncertainty coming from sources that one could in principle know, but in practice do not",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-18-jargon-1",
-        "name": "epistemic uncertainty",
-        "regex": "[Ee]pistemic[- ]uncertainty",
+        "group_id": "group-18",
+        "jargon_id": "group-18-jargon-1",
+        "jargon_term": "epistemic uncertainty",
+        "jargon_regex": "[Ee]pistemic[- ]uncertainty",
         "archived": false
       },
       {
-        "id": "group-18-jargon-2",
-        "name": "systematic uncertainty",
-        "regex": "[Ss]ystematic[- ]uncertainty",
+        "group_id": "group-18",
+        "jargon_id": "group-18-jargon-2",
+        "jargon_term": "systematic uncertainty",
+        "jargon_regex": "[Ss]ystematic[- ]uncertainty",
         "archived": false
       }
     ]
@@ -411,17 +458,19 @@
     "id": "group-19",
     "description": "Interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structure and unstructured data, applying them to a wide range of domains",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-19-jargon-1",
-        "name": "data science",
-        "regex": "[Dd]ata [Ss]cience",
+        "group_id": "group-19",
+        "jargon_id": "group-19-jargon-1",
+        "jargon_term": "data science",
+        "jargon_regex": "[Dd]ata [Ss]cience",
         "archived": false
       },
       {
-        "id": "group-19-jargon-2",
-        "name": "big data analytics",
-        "regex": "[Bb]ig [Dd]ata analytics",
+        "group_id": "group-19",
+        "jargon_id": "group-19-jargon-2",
+        "jargon_term": "big data analytics",
+        "jargon_regex": "[Bb]ig [Dd]ata analytics",
         "archived": false
       }
     ]
@@ -430,17 +479,19 @@
     "id": "group-20",
     "description": "Mathematical transformation used to convert a particle theory into its respective field theory by linearizing the density operator and introducing an auxiliary scalar field",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-20-jargon-1",
-        "name": "hubbard-stratonovich transformation",
-        "regex": "[Hh]ubbard[- ][Ss]tratonovich transformation",
+        "group_id": "group-20",
+        "jargon_id": "group-20-jargon-1",
+        "jargon_term": "hubbard-stratonovich transformation",
+        "jargon_regex": "[Hh]ubbard[- ][Ss]tratonovich transformation",
         "archived": false
       },
       {
-        "id": "group-20-jargon-2",
-        "name": "auxiliary field",
-        "regex": "[Aa]uxiliary field",
+        "group_id": "group-20",
+        "jargon_id": "group-20-jargon-2",
+        "jargon_term": "auxiliary field",
+        "jargon_regex": "[Aa]uxiliary field",
         "archived": false
       }
     ]
@@ -449,23 +500,26 @@
     "id": "group-21",
     "description": "Measurement for the accuracy of probabilistic predictions. It is applicable to tasks in which predictions must assign probabilities to a set of mutually exclusive outcomes or classes",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-21-jargon-1",
-        "name": "scoring rule",
-        "regex": "[Ss]coring rule",
+        "group_id": "group-21",
+        "jargon_id": "group-21-jargon-1",
+        "jargon_term": "scoring rule",
+        "jargon_regex": "[Ss]coring rule",
         "archived": false
       },
       {
-        "id": "group-21-jargon-2",
-        "name": "proper-scoring rule",
-        "regex": "[Pp]roper[- ]scoring rule",
+        "group_id": "group-21",
+        "jargon_id": "group-21-jargon-2",
+        "jargon_term": "proper-scoring rule",
+        "jargon_regex": "[Pp]roper[- ]scoring rule",
         "archived": false
       },
       {
-        "id": "group-21-jargon-3",
-        "name": "loss function",
-        "regex": "[Ll]oss function",
+        "group_id": "group-21",
+        "jargon_id": "group-21-jargon-3",
+        "jargon_term": "loss function",
+        "jargon_regex": "[Ll]oss function",
         "archived": false
       }
     ]
@@ -474,17 +528,19 @@
     "id": "group-22",
     "description": "Statistics estimate computed from the observed data, referring to the range of values for an unknown parameter",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-22-jargon-1",
-        "name": "confidence interval",
-        "regex": "[Cc]onfidence[- ]interval",
+        "group_id": "group-22",
+        "jargon_id": "group-22-jargon-1",
+        "jargon_term": "confidence interval",
+        "jargon_regex": "[Cc]onfidence[- ]interval",
         "archived": false
       },
       {
-        "id": "group-22-jargon-2",
-        "name": "confidence level",
-        "regex": "[Cc]onfidence[- ]level",
+        "group_id": "group-22",
+        "jargon_id": "group-22-jargon-2",
+        "jargon_term": "confidence level",
+        "jargon_regex": "[Cc]onfidence[- ]level",
         "archived": false
       }
     ]
@@ -493,17 +549,19 @@
     "id": "group-23",
     "description": "Statistics / Physics concepts referring to the general technique for estimating properties of a particular distribution, while only having samples generated from a different distribution than the distribution of interest",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-23-jargon-1",
-        "name": "importance sampling",
-        "regex": "[Ii]mportance sampling",
+        "group_id": "group-23",
+        "jargon_id": "group-23-jargon-1",
+        "jargon_term": "importance sampling",
+        "jargon_regex": "[Ii]mportance sampling",
         "archived": false
       },
       {
-        "id": "group-23-jargon-2",
-        "name": "reweighing",
-        "regex": "[Rr]eweighing",
+        "group_id": "group-23",
+        "jargon_id": "group-23-jargon-2",
+        "jargon_term": "reweighing",
+        "jargon_regex": "[Rr]eweighing",
         "archived": false
       }
     ]
@@ -512,17 +570,19 @@
     "id": "group-24",
     "description": "Machine learning individual measurable property or characteristic of a phenomenon being observed",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-24-jargon-1",
-        "name": "dataset features",
-        "regex": "[Dd]ataset[s]? feature",
+        "group_id": "group-24",
+        "jargon_id": "group-24-jargon-1",
+        "jargon_term": "dataset features",
+        "jargon_regex": "[Dd]ataset[s]? feature",
         "archived": false
       },
       {
-        "id": "group-24-jargon-2",
-        "name": "dataset variables",
-        "regex": "[Dd]ataset[s]? variable",
+        "group_id": "group-24",
+        "jargon_id": "group-24-jargon-2",
+        "jargon_term": "dataset variables",
+        "jargon_regex": "[Dd]ataset[s]? variable",
         "archived": false
       }
     ]
@@ -531,29 +591,33 @@
     "id": "group-25",
     "description": "Machine learning / Mathematics methods for efficiently computing the gradient of a function or operator in a numerical optimization problem",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-25-jargon-1",
-        "name": "adjoint state method",
-        "regex": "[Aa]djoint[[- ]state]? method",
+        "group_id": "group-25",
+        "jargon_id": "group-25-jargon-1",
+        "jargon_term": "adjoint state method",
+        "jargon_regex": "[Aa]djoint[[- ]state]? method",
         "archived": false
       },
       {
-        "id": "group-25-jargon-2",
-        "name": "back-propagation",
-        "regex": "[Bb]ack[- ]?propagation",
+        "group_id": "group-25",
+        "jargon_id": "group-25-jargon-2",
+        "jargon_term": "back-propagation",
+        "jargon_regex": "[Bb]ack[- ]?propagation",
         "archived": false
       },
       {
-        "id": "group-25-jargon-3",
-        "name": "kelley-bryson method",
-        "regex": "[Kk]elley[- ][Bb]ryson method",
+        "group_id": "group-25",
+        "jargon_id": "group-25-jargon-3",
+        "jargon_term": "kelley-bryson method",
+        "jargon_regex": "[Kk]elley[- ][Bb]ryson method",
         "archived": false
       },
       {
-        "id": "group-25-jargon-4",
-        "name": "reverse mode automatic differentiation",
-        "regex": "[Rr]everse[- ]mode automatic differentiation",
+        "group_id": "group-25",
+        "jargon_id": "group-25-jargon-4",
+        "jargon_term": "reverse mode automatic differentiation",
+        "jargon_regex": "[Rr]everse[- ]mode automatic differentiation",
         "archived": false
       }
     ]
@@ -562,17 +626,19 @@
     "id": "group-26",
     "description": "Concepts referring to the neural networks using real-valued functions (those whose value depends only on the distance between the input and some fixed point)",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-26-jargon-1",
-        "name": "kernel-machine with gaussian kernel",
-        "regex": "[Kk]ernel[- ]machine with [Gg]aussian kernel",
+        "group_id": "group-26",
+        "jargon_id": "group-26-jargon-1",
+        "jargon_term": "kernel-machine with gaussian kernel",
+        "jargon_regex": "[Kk]ernel[- ]machine with [Gg]aussian kernel",
         "archived": false
       },
       {
-        "id": "group-26-jargon-2",
-        "name": "rbf network",
-        "regex": "RBF network",
+        "group_id": "group-26",
+        "jargon_id": "group-26-jargon-2",
+        "jargon_term": "rbf network",
+        "jargon_regex": "RBF network",
         "archived": false
       }
     ]
@@ -581,17 +647,19 @@
     "id": "group-27",
     "description": "Bayesian Statistics concepts referring to the logarithmic of the probability distribution that would express one's beliefs about an uncertain quantity before some evidence is considered",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-27-jargon-1",
-        "name": "log-prior",
-        "regex": "[Ll]og[- ]prior",
+        "group_id": "group-27",
+        "jargon_id": "group-27-jargon-1",
+        "jargon_term": "log-prior",
+        "jargon_regex": "[Ll]og[- ]prior",
         "archived": false
       },
       {
-        "id": "group-27-jargon-2",
-        "name": "regularizer",
-        "regex": "[Rr]egularizer",
+        "group_id": "group-27",
+        "jargon_id": "group-27-jargon-2",
+        "jargon_term": "regularizer",
+        "jargon_regex": "[Rr]egularizer",
         "archived": false
       }
     ]
@@ -600,17 +668,19 @@
     "id": "group-28",
     "description": "Mathematics process to decompose numerical values in order to reduce the complexity and influence of certain variables upon them",
     "archived": false,
-    "terms": [
+    "jargons": [
       {
-        "id": "group-28-jargon-1",
-        "name": "principal-component analysis",
-        "regex": "[Pp]rincipal[- ][Cc]omponent analysis",
+        "group_id": "group-28",
+        "jargon_id": "group-28-jargon-1",
+        "jargon_term": "principal-component analysis",
+        "jargon_regex": "[Pp]rincipal[- ][Cc]omponent analysis",
         "archived": false
       },
       {
-        "id": "group-28-jargon-2",
-        "name": "proper-orthogonal decomposition",
-        "regex": "[Pp]roper[- ][Oo]rthogonal decomposition",
+        "group_id": "group-28",
+        "jargon_id": "group-28-jargon-2",
+        "jargon_term": "proper-orthogonal decomposition",
+        "jargon_regex": "[Pp]roper[- ][Oo]rthogonal decomposition",
         "archived": false
       }
     ]
