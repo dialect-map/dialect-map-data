@@ -23,7 +23,7 @@
       "type": "string",
       "minLength": 2,
       "maxLength": 64,
-      "pattern": "^[a-z \\-]+$"
+      "pattern": "^[a-z]+([ \\-][a-z]+)*$"
     },
     "jargon_regex": {
       "description": "The jargon term regex to consider every similar expression together",
