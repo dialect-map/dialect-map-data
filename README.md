@@ -1,4 +1,4 @@
-# Dialect map: jargon data
+# Dialect map data
 
 ## About
 This repository contains static data to be used in the rest of the Dialect Map components 💬.
