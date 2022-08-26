@@ -6,12 +6,15 @@ on:
       old_revision:
         description: "Lower bound GIT SHA"
         required: true
+        type: string
       new_revision:
         description: "Upper bound GIT SHA"
         required: true
+        type: string
       debug_flag:
-        description: "Is a debug run? (true / false)"
+        description: "Debug run?"
         required: true
+        type: boolean
 
 
 env:
