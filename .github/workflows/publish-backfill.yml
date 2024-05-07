@@ -30,9 +30,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Set up GitHub Actions"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: "Set up node"
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: 15
       - name: "Install dependencies"
@@ -54,11 +54,11 @@ jobs:
       JSON_DIFF_REPO: "github.com/josephburnett/jd@v1.3.0"
     steps:
       - name: "Set up GitHub Actions"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: "Set up Golang"
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v5
         with:
           go-version: "1.13"
       - name: "Install Golang utility"
@@ -119,9 +119,9 @@ jobs:
       GOOGLE_APPLICATION_CREDENTIALS: "./service_account_key.json"
     steps:
       - name: "Set up GitHub Actions"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: "Set up node"
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: 15
       - name: "Set up private packages SSH keys"
